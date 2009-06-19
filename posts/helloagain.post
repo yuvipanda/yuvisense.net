@@ -1,0 +1,17 @@
+Hello World, Again!
+tags: misc, blog
+
+I'm Yuvi. This is my second blog. My old one has been retired because, well, it's old! It contained too much ranting. It has content from me since I was 14 - a lot of that is just plain stupid, and a few are even embarassingly inaccurate & naive. You can still checkout the [old blog][old blog] - it's not a wordpress site though - just a plain-old-html mirror of the old wordpress blog. Saves me some cpu cycles and spam :)
+
+#### Blog Platform
+
+Also, this blog _runs_ on code I personally wrote. The first piece of code that I'm using in a 'production' environment. 
+
+I'm calling it [HiSlain][hislain github], for various reasons that might be apparent to those who need to know them. It's more [FogCreek CitiDesk][citidesk] than [WordPress][wordpress].
+
+It is written in [Python][python], and uses [Jinja2][jinja2] for templating & [Markdown][mkdown] for markup. I've also ported the [tj-clean][tj] WordPress theme to HiSlain, and plan on doing more ports :)
+
+[old blog]: http://blog.yuvisense.net
+[hislain github]: http://github.com/yuvipanda/hislain
+[citidesk]: http://www.fogcreek.com/CityDesk/index.html
+[wordpress]: http://wordpress.org

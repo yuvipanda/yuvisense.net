@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+    <title>
+        
+Hello World, Again!
+ | YuviSense
+    </title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YuviSense <span>Codin Kid</span></h1>
+            <div class="stripcontainer">
+                <div class="strip" id="projects">                    
+                    <h4>Projects</h4><a href="http://github.com/yuvipanda/HiSlain"><img src="/media/hislain.png" /></a>
+                </div>
+            </div>
+            <br />
+            
+
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
+       <a href="/hello-world-again" rel="bookmark">Hello World, Again!</a>
+   </h3>
+   <div class="entry-content">
+       <p>I'm Yuvi. This is my second blog. My old one has been retired because, well, it's old! It contained too much ranting. It has content from me since I was 14 - a lot of that is just plain stupid, and a few are even embarassingly inaccurate &amp; naive. You can still checkout the <a href="http://blog.yuvisense.net">old blog</a> - it's not a wordpress site though - just a plain-old-html mirror of the old wordpress blog. Saves me some cpu cycles and spam :)</p>
+<h4>Blog Platform</h4>
+<p>Also, this blog <em>runs</em> on code I personally wrote. The first piece of code that I'm using in a 'production' environment. </p>
+<p>I'm calling it <a href="http://github.com/yuvipanda/hislain">HiSlain</a>, for various reasons that might be apparent to those who need to know them. It's more <a href="http://www.fogcreek.com/CityDesk/index.html">FogCreek CitiDesk</a> than <a href="http://wordpress.org">WordPress</a>.</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="/tag/misc">misc</a>
+            
+            <a rel="tag" href="/tag/blog">blog</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Tuesday 16 June '09
+        </div>
+    </div>
+</div>
+</div>
+
+
+            <br />
+            <div class="footer">
+                <div>
+                    <p><strong>About Me</strong></p>
+                    <p>I'm just this guy, y'know?</p>
+                </div>
+                <div>
+                    <p><strong>My Stuff</strong></p>
+                    <p>I just have stuff, y'know?</p>
+                </div>               
+                <div>
+                    <p><strong>Me</strong></p>
+                    <ul style="list-style:none;">
+                        <li>
+ <img src="http://www.google.com/s2/favicons?domain=flickr.com" />                           <a href="http://flickr.com/photos/yuvi">Flickr</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=twitter.com" /><a href="http://twitter.com/yuvipanda">Twitter</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=friendfeed.com" /><a href="http://friendfeed.com/yuvipanda">FriendFeed</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=github.com" /><a href="http://github.com/yuvipanda">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="copyright">
+                <p>
+                YuviSense powered by HiSlain using <a href="http://theojones.net/tj-clean-wordpress-theme">TJ Clean Theme</a> ported from Wordpress
+                </p>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
