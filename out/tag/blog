@@ -26,13 +26,13 @@ Posts Tagged blog
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
-       <a href="/hello-world-again" rel="bookmark">Hello World, Again!</a>
+       <a href="/hello-world-again.html" rel="bookmark">Hello World, Again!</a>
    </h3>
    <div class="entry-content">
-       <p>I'm Yuvi. This is my second blog. My old one has been retired because, well, it's old! It contained too much ranting. It has content from me since I was 14 - a lot of that is just plain stupid, and a few are even embarassingly inaccurate &amp; naive. You can still checkout the <a href="http://blog.yuvisense.net">old blog</a> - it's not a wordpress site though - just a plain-old-html mirror of the old wordpress blog. Saves me some cpu cycles and spam :)</p>
+       <p>I'm Yuvi. This is my second blog. My old one has been retired because, well, it's old! It contained too much ranting. It has content from me since I was 14 - a lot of that is just plain stupid, and a few are even embarassingly inaccurate &amp; naive. You can still possibly checkout the <a href="http://blog.yuvisense.net">old blog</a> - if I manage to get the content back :)</p>
 <h4>Blog Platform</h4>
 <p>Also, this blog <em>runs</em> on code I personally wrote. The first piece of code that I'm using in a 'production' environment. </p>
-<p>I'm calling it <a href="http://github.com/yuvipanda/hislain">HiSlain</a>, for various reasons that might be apparent to those who need to know them. It's more <a href="http://www.fogcreek.com/CityDesk/index.html">FogCreek CitiDesk</a> than <a href="http://wordpress.org">WordPress</a>.</p>
+<p>I'm calling it <a href="http://github.com/yuvipanda/hislain">HiSlain</a>, for various reasons that might be apparent to those who need to know them. It's more <a href="http://www.fogcreek.com/CityDesk/index.html">FogCreek CitiDesk</a> than <a href="http://wordpress.org">WordPress</a>. It is written in [Python][python], and uses [Jinja2][jinja2] for templating &amp; [Markdown][mkdown] for markup. I've also ported the [tj-clean][tj] WordPress theme to HiSlain, and plan on doing more ports :) </p>
    </div>
    <div class="entry-meta">
         <div class='entry-tags'>
@@ -43,7 +43,7 @@ Posts Tagged blog
             
         </div>
         <div class='entry-date'>
-            Published at Tuesday 16 June '09
+            Published at Sunday 21 June '09
         </div>
     </div>
 </div>
