@@ -1,0 +1,16 @@
+Optimizing Life
+tags: geekery life
+
+[Geeks Optimize Life][1]. True that. I do optimize the short route from when I get down from my college bus to my home, and me and [Sudar][2] did have an argument about optimization when we took the train together one day. My argument was that the distance you are going to walk is constant anyway (you either walk it at the station you are boarding the train, or where you are getting down), so moving to the extreme end of the train is pointless. He pointed out that if you walk when you are at the boarding station, you are using your _idle time_ - time spent waiting for train to arrive (kinda like how the CPU can do stuff when waiting for IO to complete). However, time after you reach your destination is _not_ idle time - you are not waiting for anything, so you minimizing the distance you have to walk before you can get out of the station and continue to whatever you have to do next. He was right, so I stfu :)
+
+(Ofcourse, sometimes you want to actually _maximize_ time spent walking - in that case, move to the wrong extreme end, and then when (and if) asked, just act confused. Works :)
+
+In the comments there, [Rich][3] says that human social interaction/norms are so ineffecient we tend to optimize them out. However, I find that more often than not, it is not that human social interactions are ineffecient - they are just difficult to quantify. Half an hour spent talking on the phone has a clear negative weightage - a loss in phone credit of 3 bucks. However, sometimes, `value(half_hour_phone_convo) > value(30 mins) + value(3 bucks)`. Just that `value()` is undefined/poorly defined for inputs of type `conversation`, so sometimes we treat it as zero, and optimize it out. 
+
+My life has certianly been better since I stopped optimizing `value(conversation)` to zero :) Yeah, I've lost time, but I'm happier (mostly)
+
+So yeah, I do optimize life. But not relationships and frendships. My life is better off this way. 
+
+[1]: http://www.cforcoding.com/2009/06/do-programmers-optimize-life.html
+[2]: http://sudarmuthu.com/blog
+[3]: http://www.cforcoding.com/2009/06/do-programmers-optimize-life.html?showComment=1245689548116#c5549841120766090734
