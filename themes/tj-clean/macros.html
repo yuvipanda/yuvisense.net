@@ -14,7 +14,7 @@
             {% endfor %}
         </div>
         <div class='entry-date'>
-            Published at {{ post.meta.published.strftime("%A %d %B '%y") }}
+            Published at {{ post.meta.published.strftime("%A %d %B '%y") }} | <a href="{{settings.base_url}}{{post.meta.permalink}}#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>

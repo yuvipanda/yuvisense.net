@@ -304,3 +304,7 @@ float : none;
 width : 60px;
 font-size : 14px;
 }
+
+#disqus_thread {
+    margin-left:40px
+}

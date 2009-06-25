@@ -62,7 +62,7 @@ pageTracker._trackPageview();
             
         </div>
         <div class='entry-date'>
-            Published at Thursday 25 June '09
+            Published at Friday 26 June '09 | <a href="/hello-world-again.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>
@@ -104,5 +104,20 @@ pageTracker._trackPageview();
             </div>
         </div>        
     </div>
+    <script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/yuvisense/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
+
 </body>
 </html>
