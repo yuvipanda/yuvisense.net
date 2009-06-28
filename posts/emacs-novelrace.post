@@ -1,7 +1,7 @@
 Emacs
 permalink: emacs.html
-tags: novelrace, stories
 published: 2009-06-29T02:25:27.799819
+tags: novelrace, stories
 
 He was coding.
 
@@ -46,3 +46,5 @@ She timed it to perfection. The bus stopped. She got down, blew him a kiss, and 
 "Damn! She's a programmer, a girl, my age, who does emacs vs vim, AND I DIDN'T GET HER NUMBER!"
 
 (Partially inspired by [this](http://xkcd.com/377/). It first went off into a wild arc involving a Ruby script written to generate Python code *cough*, but then I decided against including that)
+
+(And yes, obviously, comments welcome. [#novelrace](http://novelrace.in) helped me get off my ass and start writing, so I'll be producing crap for some time now. But still, call crap crap :) )
