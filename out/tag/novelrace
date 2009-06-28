@@ -53,15 +53,15 @@ pageTracker._trackPageview();
 <p>"Huh?" </p>
 <p>"Your editor? It's Vim"</p>
 <p>"Huh huh?"</p>
-<p>"So you're not a real programmer. [Real programmers use emacs][http://www.xkcd.net/378/]"</p>
+<p>"So you're not a real programmer. <a href="http://www.xkcd.net/378/">Real programmers use emacs</a>"</p>
 <p>"Eh?"</p>
-<p>"And [real programmers don't use Python][http://bit.ly/realprogrammerspython] either. [We code in C][http://www.ericsink.com/entries/c_morse_code.html]"</p>
+<p>"And <a href="http://bit.ly/realprogrammerspython">real programmers don't use Python</a> either. <a href="http://www.ericsink.com/entries/c_morse_code.html">We code in C</a>"</p>
 <p>"Erm, wha? Huh?"</p>
-<p>"Yes, C. And Emacs. Vim is for Wimps. You would probably run windows on that thing if you could've. What a total waste of space"</p>
+<p>"Yes, C. And Emacs. Vim is for Wimps. You would probably run windows on that thing if you could've. You are a total waste of space"</p>
 <p>"What the?"</p>
 <p>She timed it to perfection. The bus stopped. She got down, blew him a kiss, and went on her merry way.</p>
-<p>"Damn! She's a programmer, a girl, my age, who does emacs vs vim humor, AND I DIDN'T GET HER NUMBER!"</p>
-<p>(Partially inspired by [this][http://xkcd.com/377/]. It first went off into a wild arc involving a Ruby script written to generate Python code <em>cough</em>, but then I decided against including that)</p>
+<p>"Damn! She's a programmer, a girl, my age, who does emacs vs vim, AND I DIDN'T GET HER NUMBER!"</p>
+<p>(Partially inspired by <a href="http://xkcd.com/377/">this</a>. It first went off into a wild arc involving a Ruby script written to generate Python code <em>cough</em>, but then I decided against including that)</p>
    </div>
    <div class="entry-meta">
         <div class='entry-tags'>
