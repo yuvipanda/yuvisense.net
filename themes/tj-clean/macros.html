@@ -5,7 +5,7 @@
        <a href="{{settings.base_url}}{{ post.meta.permalink }}" rel="bookmark">{{ post.title|escape }}</a>
    </h3>
    <div class="entry-content">
-       {{ post.content }}
+       {{ post.render_html() }}
    </div>
    <div class="entry-meta">
         <div class='entry-tags'>
