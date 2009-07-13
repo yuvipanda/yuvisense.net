@@ -1,1 +1,1 @@
-ssh plasmafury@willie.dreamhost.com './publish.sh'
+ssh plasmafury@yuvisense.net './publish.sh'
