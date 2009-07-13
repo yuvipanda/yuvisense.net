@@ -2,3 +2,5 @@ theme: tj-clean
 name: YuviSense
 tagline: Codin Kid
 base_url: http://yuvisense.net/
+
+ga_id: UA-970897-4
