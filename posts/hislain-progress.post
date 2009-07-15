@@ -1,0 +1,13 @@
+Progress on HiSlain #1
+permalink: progress-on-hislain-1.html
+published: 2009-07-15T23:35:18.764536
+tags: code, hislain
+
+Small status update on [my blogging platform][1]'s progress.
+
+I've got the plugin infrastructure (mostly) in. Google Analytics Plugin and the RSS link plugin are working :) 
+
+Next Step is to make DISQUS[2] a plugin too, and then I can start on porting themes!
+
+[1]: http://github.com/yuvipanda/HiSlain
+[2]: http://disqus.com
