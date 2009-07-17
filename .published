@@ -4,4 +4,11 @@
   ./posts/novelrace-me.post: 9b41bd2c0ec4a2ac2e3704ee535c3f11, ./posts/optimizinglife.post: cb6274adc889b13f3d1cab8c56f1896f,
   ./posts/shirtsize.post: dcb1d8d2ea2ff49e0cc8a5b03c364e4e, ./posts/thingsineedtimefor.post: c651240af9a6b16a1d58e1222fe6a35a,
   ./posts/treat-of-a-lifetime-novelrace.post: 6c33bfe49d589e3079b3e537e7efc549, ./posts/tshirt-i-want.post: 7d9861d45302afafe144958eb16107d2,
-  ./posts/vim-novelrace.post: d41d8cd98f00b204e9800998ecf8427e}
+  ./posts/vim-novelrace.post: d41d8cd98f00b204e9800998ecf8427e, .\posts\code-highlight-plugin.post: 59906936c2d55449d199baaa38d4b9be,
+  .\posts\cute-dress.post: e604ae906e6c74c920b6bf4f7327aa40, .\posts\emacs-novelrace.post: a57906d3569665b5a24ea1a77b75eb85,
+  .\posts\evanescence-music-vids.post: 5fdc6e50f0f32b020736fcbafb745278, .\posts\helloagain.post: 62eb285d56c10b70f41904913b019a0c,
+  .\posts\hislain-progress.post: 44d0dd5d3975bdd2aab1b538edb22753, .\posts\me-jealous.post: f5ade3e31e4b4168f22a617314a104c8,
+  .\posts\novelrace-me.post: 9b41bd2c0ec4a2ac2e3704ee535c3f11, .\posts\optimizinglife.post: cb6274adc889b13f3d1cab8c56f1896f,
+  .\posts\reverse-iteration-django-templates.post: 163316c466c38220d4f8be8356e53c43,
+  .\posts\shirtsize.post: dcb1d8d2ea2ff49e0cc8a5b03c364e4e, .\posts\thingsineedtimefor.post: c651240af9a6b16a1d58e1222fe6a35a,
+  .\posts\treat-of-a-lifetime-novelrace.post: 6c33bfe49d589e3079b3e537e7efc549, .\posts\tshirt-i-want.post: 7d9861d45302afafe144958eb16107d2}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvisense.net/</link><description>Codin Kid</description><lastBuildDate>Wed, 15 Jul 2009 23:37:18 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Progress on HiSlain #1</title><link>http://yuvisense.net/progress-on-hislain-1.html</link><description>&lt;p&gt;Small status update on &lt;a href="http://github.com/yuvipanda/HiSlain"&gt;my blogging platform&lt;/a&gt;'s progress.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvisense.net/</link><description>Codin Kid</description><lastBuildDate>Fri, 17 Jul 2009 23:45:32 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Code Highligting Plugin for HiSlain</title><link>http://yuvisense.net/code-highligting-plugin-for-hislain.html</link><description>&lt;p&gt;I've been hacking 'round with [HiSlain][1], and wrote a syntax highlighting plugin for it. Nothing fancy - just uses [Pygments][2], but the process of modifying the plugin architecture to support this has been an awesome ride. I'll probably open up a new GitHub project just for HiSlain Themes and Plugins.&lt;/p&gt;
+&lt;p&gt;And since I've to test out Syntax Highlighting,&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;I kinda like Python :)&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><guid isPermaLink="true">http://yuvisense.net/code-highligting-plugin-for-hislain.html</guid><pubDate>Fri, 17 Jul 2009 23:44:21 GMT</pubDate></item><item><title>Progress on HiSlain #1</title><link>http://yuvisense.net/progress-on-hislain-1.html</link><description>&lt;p&gt;Small status update on &lt;a href="http://github.com/yuvipanda/HiSlain"&gt;my blogging platform&lt;/a&gt;'s progress.&lt;/p&gt;
 &lt;p&gt;I've got the plugin infrastructure (mostly) in. Google Analytics Plugin and the RSS link plugin are working :) &lt;/p&gt;
 &lt;p&gt;Next Step is to make &lt;a href="http://disqus.com"&gt;DISQUS&lt;/a&gt; a plugin too, and then I can start on porting themes!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/progress-on-hislain-1.html</guid><pubDate>Wed, 15 Jul 2009 23:35:18 GMT</pubDate></item><item><title>I'm jealous of her</title><link>http://yuvisense.net/i-m-jealous-of-her.html</link><description>&lt;p&gt;I'm Jealous of &lt;a href="http://dreamgirl.freya.in/"&gt;Freya&lt;/a&gt;. I can't really seem to figure out why. &lt;/p&gt;
 &lt;p&gt;Okay, I think I can. Guess it's the anonymity. That she can write whatever se wants, without caring a damn.&lt;/p&gt;
@@ -81,25 +84,4 @@
 &lt;p&gt;(And yes, obviously, comments welcome. &lt;a href="http://novelrace.in"&gt;#novelrace&lt;/a&gt; helped me get off my ass and start writing, so I'll be producing crap for some time now. But still, call crap crap :) )&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/emacs.html</guid><pubDate>Mon, 29 Jun 2009 02:25:27 GMT</pubDate></item><item><title>I soooo want this on a T-Shirt</title><link>http://yuvisense.net/i-soooo-want-this-on-a-t-shirt.html</link><description>&lt;p&gt;&lt;img alt="I soo want this on a T Shirt. Really. Once I have enough money, I will get this!" src="http://imgs.xkcd.com/comics/binary_heart.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Seirously.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/i-soooo-want-this-on-a-t-shirt.html</guid><pubDate>Mon, 29 Jun 2009 01:23:53 GMT</pubDate></item><item><title>Evanescence: Enjoyed best without the Music Vids</title><link>http://yuvisense.net/evanescence-enjoyed-best-without-the-music-vids.html</link><description>&lt;p&gt;&lt;img alt="Excitement cycle" src="/media/evanescence-vids-tweets.png" /&gt;&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/evanescence-enjoyed-best-without-the-music-vids.html</guid><pubDate>Sun, 28 Jun 2009 17:44:52 GMT</pubDate></item><item><title>Shirts</title><link>http://yuvisense.net/shirts.html</link><description>&lt;p&gt;My shirts went from L to M&lt;/p&gt;
 &lt;p&gt;My pants went from 40 to 34&lt;/p&gt;
-&lt;p&gt;I'm awesome :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/shirts.html</guid><pubDate>Sun, 28 Jun 2009 15:39:31 GMT</pubDate></item><item><title>Things I need time to do</title><link>http://yuvisense.net/things-i-need-time-to-do.html</link><description>&lt;ul&gt;
-&lt;li&gt;Put on muscle/reduce weight.&lt;/li&gt;
-&lt;li&gt;Master jQuery&lt;/li&gt;
-&lt;li&gt;Learn CSS&lt;/li&gt;
-&lt;li&gt;Process photos and put them up on flickr&lt;/li&gt;
-&lt;li&gt;Put up college's (awesome) dance videos on Facebook and Youtube&lt;/li&gt;
-&lt;li&gt;Go out more.&lt;/li&gt;
-&lt;li&gt;Fix my glasses. Get ontacts if possible - or change my frames.&lt;/li&gt;
-&lt;li&gt;Write stats posts. Develop &lt;a href="http://github.com/yuvipanda/goodfather"&gt;goodfather&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add a plugin system to &lt;a href="http://github.com/yuvipada/HiSlain"&gt;HiSlain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Publish a paper or two! (yeah, I know)&lt;/li&gt;
-&lt;li&gt;Blog more (duh)&lt;/li&gt;
-&lt;li&gt;Go out more.&lt;/li&gt;
-&lt;li&gt;Learn to bike (of the petrol eating variety, that is)&lt;/li&gt;
-&lt;li&gt;Go out more&lt;/li&gt;
-&lt;li&gt;Photograph more&lt;/li&gt;
-&lt;li&gt;Kick everyone's ass in studies (I can do that this sem, we have 3 CS papers!)&lt;/li&gt;
-&lt;li&gt;Did I mention I need to get out more?&lt;/li&gt;
-&lt;li&gt;Learn a new language. Java or C++. I'm leaning towards C++.&lt;/li&gt;
-&lt;li&gt;Make my college more awesome than it already is :)&lt;/li&gt;
-&lt;li&gt;Oh, and ofcourse, I need to get out more :)&lt;/li&gt;
-&lt;/ul&gt;</description><guid isPermaLink="true">http://yuvisense.net/things-i-need-time-to-do.html</guid><pubDate>Sun, 28 Jun 2009 11:47:09 GMT</pubDate></item></channel></rss>
+&lt;p&gt;I'm awesome :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvisense.net/shirts.html</guid><pubDate>Sun, 28 Jun 2009 15:39:31 GMT</pubDate></item></channel></rss>
