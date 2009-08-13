@@ -1,13 +1,14 @@
 The Automatic Quote Generators (aka AutoPeople)
 permalink: the-automatic-quote-generators-aka-autopeople.html
-published: 2009-08-14T01:30:59.568442
 tags: autopeople, code
+published: 2009-08-14T01:30:59.568442
 
 An Automatic Quote Generator - generates sound bites that *almost* sound like someone else, and are somtimes funny as hell:
-+ [AutoFreya][1], emulating the [doubtfully-anonymous-teen Freya][2]
-+ [AutoLG][3], for popular blogger [Louis Gray][4]
-+ [AutoMona][5], for, well, I can't describe who [Mona][6] is yet. I haven't figured out. Just someone cool, maybe?
-+ [AutoAtwood][7], for one of the few for-the-masses dev coder [Jeff Atwood][8]
+
+- [AutoFreya][1], emulating the [doubtfully-anonymous-teen Freya][2]
+- [AutoLG][3], for popular blogger [Louis Gray][4]
+- [AutoMona][5], for, well, I can't describe who [Mona][6] is yet. I haven't figured out. Just someone cool, maybe?
+- [AutoAtwood][7], for one of the few for-the-masses dev coder [Jeff Atwood][8]
 
 A few of them ([@AutoLG][9] & [@AutoMona][10]) also have twiwtter bots for them, posting short tweets once every seven minutes.
 
