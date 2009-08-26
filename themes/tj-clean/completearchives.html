@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "macros.html" import single_post %}
+
+{% block title %}
+Complete Archives 
+{% endblock %}
+
+{% block content %}
+<h4>Complete Archives</h4>
+<ul class="archives"
+    {% for p in posts %}
+    <li>
+        <a href="{{settings.base_url}}{{p.meta.permalink}}">{{p.title|escape}}</a> <small>{{p.meta.published.strftime("%d %b '%y")}}</small>
+    </li>
+    {% endfor %}
+</ol>
+{% endblock %}

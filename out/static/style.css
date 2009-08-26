@@ -308,3 +308,19 @@ font-size : 14px;
 #disqus_thread {
     margin-left:40px
 }
+
+ul.archives
+{
+    margin-top:20px;
+    list-style:none;
+}
+
+ul.archives a
+{
+    font-weight:bold;
+}
+
+ul.archives small
+{
+    font-variant: small-caps;
+}
