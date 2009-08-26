@@ -1,6 +1,6 @@
 {% macro single_post(post, settings) %}
 <div  class="post hentry">
-<div class="comm_date"><span class="data"><span class="j">{{post.meta.published.strftime("%d")}}</span>{{post.meta.published.strftime("%b/'%y")}}</span><span class="nr_comm"><a href="http://wp-themes.com/?p=19#comments" class="nr_comm_spot">Off</a></span></div>
+<div class="comm_date"><span class="data"><span class="j">{{post.meta.published.strftime("%d")}}</span>{{post.meta.published.strftime("%b/'%y")}}</span><span class="nr_comm"><a href="{{settings.base_url}}{{post.meta.permalink}}" class="nr_comm_spot">#</a></span></div>
 <h2><a rel="bookmark" href="{{settings.base_url}}{{post.meta.permalink}}" title="{{post.meta.title}}">{{post.title}}</a></h2>
 
 {{post.render_html()}}
