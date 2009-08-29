@@ -14,3 +14,10 @@
 </div>
 </div>
 {% endmacro %}
+
+{% macro single_sidebar_block(block, settings) %}
+<h3>{{block.title}}</h3>
+
+{{block.render_html()}}
+
+{% endmacro %}
