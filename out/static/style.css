@@ -197,3 +197,7 @@ ul.hide{list-style-type:none;display:none;}
 .comment-edit-link{background-color:#EFEFEF;padding:1px 5px;color:#999999;border-left:1px solid #DDD;}
 .about_author{border-top:1px solid #DDD;background-color:#F5F5F5;padding:10px;margin-top:10px;}
 .moderation{font-size:80%;}
+
+.valuable-flair{
+    width:180px !important;
+    }

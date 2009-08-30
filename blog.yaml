@@ -9,4 +9,5 @@ feedburner_url: http://feeds.feedburner.com/Yuvisense/
 blocks:
     - about-me
     - me-on-the-web
+    - flair
     - last-fm    
