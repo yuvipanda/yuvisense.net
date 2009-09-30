@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Wed, 30 Sep 2009 12:17:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lessons learnt from working with the Symposium</title><link>http://yuvi.in/blog/lessons-learnt-from-working-with-the-symposium.html</link><description>&lt;ul&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Thu, 01 Oct 2009 00:52:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Code I've written so far</title><link>http://yuvi.in/blog/code-i-ve-written-so-far.html</link><description>&lt;p&gt;Code I have written so far:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/HiSlain"&gt;HiSlain&lt;/a&gt;: A static blog publishing system (NOT A DJANGO BLOG!). Runs this blog&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/wtfimb"&gt;wtfimb&lt;/a&gt;: The code that powers &lt;a href="http://busroutes.in"&gt;Busroutes.in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/frailgrey"&gt;frailgrey&lt;/a&gt;: Markov Chain based page generator (pretty lame, actually)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/goodfather"&gt;GoodFather&lt;/a&gt;: Collection of utils for web data scraping and storing&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/reappy"&gt;reappy&lt;/a&gt;: A Twitter Search Application Framework&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/yuvipanda/sadivy"&gt;SadIvy&lt;/a&gt;: A pure WSGI URL Shortener&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, I've been doing a shit job of documenting them - none exists. Nor of writing tests - none exists. That should hopefully change soon :)&lt;/p&gt;
+&lt;p&gt;HiSlain and reappy are where I'm going to concentrate my efforts on for the next month or so.&lt;/p&gt;
+&lt;h4&gt;Task List for HiSlain&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactor code, clean it up so it doesn't look like proof for the &lt;a href="http://en.wikipedia.org/wiki/Infinite_monkey_theorem"&gt;Infinite Monkey Theorem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add support for raw, unmanaged pages&lt;/li&gt;
+&lt;li&gt;Port a decent looking, simple theme to HiSlain&lt;/li&gt;
+&lt;li&gt;WRITE DOCUMENTATION!&lt;/li&gt;
+&lt;li&gt;Write some tests, and refactor the code to make it more testable&lt;/li&gt;
+&lt;li&gt;WRITE MORE DOCUMENTATION!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Task List for reappy&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a real application with it, so bugs can be fixed in the process&lt;/li&gt;
+&lt;li&gt;DOCUMENTATION!&lt;/li&gt;
+&lt;li&gt;Write some tests and refactor the code to make it more testable&lt;/li&gt;
+&lt;li&gt;MORE DOCUMENTATION!&lt;/li&gt;
+&lt;li&gt;Examples.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And ofcourse, new sub-pages over here for both of them (atleast). Stay tuned!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/code-i-ve-written-so-far.html</guid><pubDate>Thu, 01 Oct 2009 00:52:30 GMT</pubDate></item><item><title>Lessons learnt from working with the Symposium</title><link>http://yuvi.in/blog/lessons-learnt-from-working-with-the-symposium.html</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Document Everything&lt;/em&gt;! On paper. Will save you from hell later.&lt;/li&gt;
 &lt;li&gt;There is never enough time. Start earlier than you think is early enough.&lt;/li&gt;
 &lt;li&gt;Sell people things. Make them want it. Think from their point of view.&lt;/li&gt;
@@ -33,5 +61,4 @@
 &lt;p&gt;A few of them (&lt;a href="http://twitter.com/autolg"&gt;@AutoLG&lt;/a&gt; &amp;amp; &lt;a href="http://twitter.com/automona"&gt;@AutoMona&lt;/a&gt;) also have twiwtter bots for them, posting short tweets once every seven minutes.&lt;/p&gt;
 &lt;p&gt;And ofcourse, I open sourced &lt;a href="http://github.com/yuvipanda/frailgrey"&gt;the code&lt;/a&gt; for all this - and made it available on github :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/the-automatic-quote-generators-aka-autopeople.html</guid><pubDate>Fri, 14 Aug 2009 01:30:59 GMT</pubDate></item><item><title>A Bigger, binary heart</title><link>http://yuvi.in/blog/a-bigger-binary-heart.html</link><description>&lt;p style="overflow: auto; padding-right: 5px; width: 400px; height: 340px;"&gt;&lt;a href="http://www.toondoo.com/View.toon?param=897627"&gt;&lt;img src="http://static.toondoo.com/public/r/a/j/rajendran/toons/cool-cartoon-897627.png" border="0" alt="\Toon\" title="\Toon\" longdesc="\toon\"&gt;&lt;/a&gt;&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/a-bigger-binary-heart.html</guid><pubDate>Mon, 10 Aug 2009 23:25:38 GMT</pubDate></item><item><title>New email id</title><link>http://yuvi.in/blog/new-email-id.html</link><description>&lt;p&gt;I've got a new email id.&lt;/p&gt;
 &lt;p&gt;It's &lt;em&gt;me@yuvisense.net&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Groovy, uh? ;)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/new-email-id.html</guid><pubDate>Mon, 10 Aug 2009 00:11:05 GMT</pubDate></item><item><title>Alone</title><link>http://yuvi.in/blog/alone.html</link><description>&lt;p&gt;He was sitting in class. Bored. He looked around. He saw sixty other people, but felt alone. He stood up, shouted 'Why am I here?!? This won't do!' and walked out of the class, leaving everyone confused and weirded out.&lt;/p&gt;
-&lt;p&gt;He moved out of the campus, and saw sixty thousand other people. He still felt alone. He realized the problem is not the world, but him. Within the next few hours, the problem went away. Forever.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/alone.html</guid><pubDate>Wed, 05 Aug 2009 00:28:05 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Groovy, uh? ;)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/new-email-id.html</guid><pubDate>Mon, 10 Aug 2009 00:11:05 GMT</pubDate></item></channel></rss>
