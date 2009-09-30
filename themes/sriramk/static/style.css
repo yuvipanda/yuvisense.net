@@ -1,0 +1,77 @@
+body
+  {
+     font-family:Palatino,Georgia,'Gill Sans','Gill Sans MT','Ikarius ADF',Candara,Jara,sans-serif;
+     font-size:16px;
+     line-height:1.5em;
+     background-color:whitesmoke;
+   }
+ 
+  #main 
+  {
+    max-width:760px;
+    margin:10px auto 10px;
+    border:1px solid #CCCCCC;
+    background-color:white;
+    padding:1em 3em 1.5em;
+   }
+
+ #header
+  {
+    text-align:center;
+    color:black;
+  }                
+  .title
+  {
+   text-align:center;
+   font-size:1.4em;                  
+   font-family:Georgia, Helvetica,Tahoma,sans-serif;
+  }     
+
+
+h1, h2, h3, h4 {
+
+    clear:left;
+    font-family:'lucida grande',sans-serif;
+    font-size:1.5em;
+    font-weight:normal;
+    line-height:1em;
+    }
+
+  .link
+  {
+    text-decoration:none;
+    color:#333333;
+  }
+  
+  a {color:#002233}
+  a img {border:0;}
+
+  h2 a {color:black;}
+  
+  
+  #footer
+  {
+     font-size:small;
+     line-height:120%
+  }
+  
+  #footer-nav
+  {
+    font-size:14pt;
+    font-weight:bolder;
+    font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;
+    letter-spacing: -1px;
+    margin:10px;
+    text-align:center;      
+  }
+ 
+ 
+div.byline a
+ {
+   color:#777777;
+   font-size:small;
+   text-transform:capitalize;
+   font-variant:small-caps;
+ }
+
+ 

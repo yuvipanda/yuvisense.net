@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="{{settings.base_url}}static/style.css" />
+	{{ hooks.as_string("html_head") }}
+    </head>
+    <body>
+        <div id = "navigation">
+            <ul>
+                <li><a href = "{{settings.base_url}}">Home</a></li>
+                <li><a href = "{{settings.base_url}}about.html">About</a></li>
+                <li><a href = "{{settings.base_url}}colophon.html">Colophon</a></li>
+                <li><a href = "{{settings.base_url}}archives.html">Archives</a></li>
+            </ul>
+        </div>
+        <div id = "canvas">
+            <h1><a href = "{{settings.base_url}}">{{ settings.name }}</a></h1>
+            <div id = "content">
+                {% block content %}{% endblock content %}
+            </div>
+	    <div class = "index-more-link text"> 
+              There's more in the <a href = "/listing/">archives</a>, and grouped into <a href = "/cloud/">tags</a> as well.
+	    </div> 
+        </div>
+        <div id = "footer">
+            <div id = "gatekeeper">
+                <a href = "http://www.webfaction.com/">
+                    <img alt = "Webfaction" src = "{{ MEDIA_URL }}/images/webfaction-24x24.png" />
+                </a>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    <img alt="Creative Commons License" style="border-width:0" src="{{ MEDIA_URL }}/images/by-nc-sa_71x25.png" />
+                </a>
+                <a href="http://www.djangoproject.com/">
+                    <img src="{{ MEDIA_URL }}/images/djangojoint107x25.gif" alt="A Django joint." title="A Django joint." />
+                </a>
+                <a href = "/admin/">
+                    <img src = "{{ MEDIA_URL }}/images/pi_gatekeeper_24x24.png" alt = "gatekeeper" />
+                </a>
+            </div>
+
+            <div id = "copyright">
+                Copyright  2009 P.C. Shyamshankar.
+                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a> unless otherwise noted.
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
+{# vim:set ft=htmldjango: #}

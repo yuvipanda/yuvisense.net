@@ -1,0 +1,54 @@
+<html>
+<head>
+<title> {% block title %} {% endblock %}   </title>
+<link rel="stylesheet" type="text/css" href="{{blog.settings.base_url}}static/style.css"/>
+{{ hooks.as_string("html_head") }}
+</head>
+
+<body>
+<div id="header">
+<h2> <a href="/" style="text-decoration:none;"> {{blog.settings.name}}  </a> </h2>
+
+</div>
+
+<div id="main">
+{% block content %}
+{% endblock %}
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sriramk/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
+<p/>
+<div id="footer-nav">
+<a href="/blog">Blog</a>
+ •         
+<a href="/blog/archive.html">Archive</a>
+
+ •         
+<a href="/code">Code</a>
+</div>
+
+<div id="footer">
+<br/>
+<br/>
+me@yuvisense.net
+<br/>
+</em>
+</div>
+
+</div>
+
+
+</body>
+</html>

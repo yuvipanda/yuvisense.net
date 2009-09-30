@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "macros.html" import single_post %}
+
+{% block title %}
+{{ post.title|escape }}
+{% endblock %}
+
+{% block content %}
+{{ single_post (post, settings) }}
+<script type="text/javascript">
+    var disqus_developer = 1;
+</script>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/yuvisense/embed.js"></script><noscript><a href="http://yuvisense.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endblock %}
+

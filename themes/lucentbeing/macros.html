@@ -1,0 +1,23 @@
+{% macro single_post(post, settings) %}
+<div class="entry">
+
+  <h2 class="entry-title">
+     <a href="{{settings.base_url}}{{ post.meta.permalink }}" rel="bookmark">{{ post.title|escape }}</a>
+   </h2>
+     <div class="entry-meta">
+       Published at {{ post.meta.published.strftime("%A %d %B '%y") }} | <a href="{{settings.base_url}}{{post.meta.permalink}}#disqus_thread">View Comments</a>
+       <div class='entry-tags'>
+	 Tags: {% for t in post.meta.tags %}
+         <a rel="tag" href="{{settings.base_url}}tag/{{ t }}.html">{{ t }}</a>
+         {% endfor %}
+       </div>
+          
+   </div>
+
+   <div class="entry-body">
+     {{ post.render_html() }}
+   </div>
+  
+   
+</div>
+{% endmacro %}
