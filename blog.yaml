@@ -1,7 +1,7 @@
 theme: lightword 
 name: YuviSense
 tagline: Codin Kid
-base_url: http://yuvisense.net/
+base_url: /blog/
 
 ga_id: UA-970897-4
 feedburner_url: http://feeds.feedburner.com/Yuvisense/
