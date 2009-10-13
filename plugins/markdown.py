@@ -4,9 +4,12 @@ import os
 css = '<link rel="stylesheet" type="text/css" href="<base_url>static/codehilite.css" />'
 
 def transform_markdown(post):
-    if not hasattr(post, 'content_html'):
-        post.content_html = markdown(post.content, ['codehilite'])
-    return post.content_html
+    if 'content-type' in post.meta and post.meta['content-type'] == 'XHTML':
+        return post.content
+    else:
+        if not hasattr(post, 'content_html'):
+            post.content_html = markdown(post.content, ['codehilite'])
+        return post.content_html
 
 def main(blog):
     blog.hooks.add_action('render',transform_markdown)
