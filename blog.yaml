@@ -11,3 +11,10 @@ blocks:
     - me-on-the-web
     - flair
     - last-fm    
+
+nav-links:
+    - About Me: http://yuvi.in/blog/about-me.html
+    - Archives: http://yuvi.in/blog/archives.html
+    - My Code: http://github.com/yuvipanda
+    - My Photos: http://flickr.com/yuvi
+    

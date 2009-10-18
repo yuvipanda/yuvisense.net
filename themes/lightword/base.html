@@ -26,10 +26,9 @@
 
 <div id="top_bar">
 <ul id="front_menu">
-<li class="page_item"><a href="{{settings.base_url}}about-me.html" title="About Me"><span>About Me</span></a></li>
-<li class="page_item"><a href="{{settings.base_url}}archives.html" title="Complete Archives"><span>Archives</span></a></li>
-<li class="page_item"><a href="http://github.com/yuvipanda" title="My Code"><span>My Code</span></a></li>
-<li class="page_item"><a href="http://flickr.com/yuvi" title="My Photographs"><span>My Photos</span></a></li>
+  {% for nl in settings['nav-links'] %}
+<li class="page_item"><a href="{{ nl.values()[0] }}" title="{{ nl.keys()[0] }}"><span>{{nl.keys()[0]}}</span></a></li>
+  {% endfor %}
 </ul>
 <form action="http://www.google.com/cse" id="searchform">
   <div>
