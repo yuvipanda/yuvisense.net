@@ -1,1 +1,1 @@
-ssh plasmafury@yuvisense.net './publish.sh'
+ssh yuvipanda@yuvi.in 'cd yuvisense.net && git pull'
