@@ -6,6 +6,10 @@ base_url: http://yuvi.in/blog/
 ga_id: UA-970897-4
 feedburner_url: http://feeds.feedburner.com/Yuvisense/
 
+openid:
+    server: https://www.myopenid.com/server
+    delegate: http://yuvipanda.myopenid.com
+
 blocks:
     - about-me
     - me-on-the-web
