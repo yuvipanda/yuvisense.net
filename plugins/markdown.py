@@ -8,7 +8,7 @@ def transform_markdown(post):
         return post.content
     else:
         if not hasattr(post, 'content_html'):
-            post.content_html = markdown(post.content, ['codehilite'])
+            post.content_html = markdown(post.content.decode("utf-8"), ['codehilite'])
         return post.content_html
 
 def main(blog):
