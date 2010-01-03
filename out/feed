@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Sun, 13 Dec 2009 23:44:40 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Python Workshop</title><link>http://yuvi.in/blog/the-python-workshop.html</link><description>&lt;p&gt;We had a python &lt;em&gt;workshop&lt;/em&gt; at college a week back.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Mon, 04 Jan 2010 01:01:50 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2010 - The Beginning, the bicycle ride and external dependencies</title><link>http://yuvi.in/blog/2010-the-beginning-the-bicycle-ride-and-external-dependencies.html</link><description>&lt;p&gt;I was writing a post on how 2009 ended. Here is the tl;dr version: It was my 'growing-up' year in Tech, and 'roller-coaster' year in personal stuff. There! I'm certainly significantly wiser at the end of 2009, and that is due more to my state at the beginning of 2009 than at the end :) Good enough&lt;/p&gt;
+&lt;p&gt;So how did I celebrate? By joining the KPP &lt;em&gt;competition&lt;/em&gt; at Kurukshetra. That's what I did at around 12 on New Year's. Not intentionally, mind you. Just happened.&lt;/p&gt;
+&lt;p&gt;Then, on 2nd Jan, I did something interesting. On a whim, I took my bicycle, and rode an hour in traffic. Alone. To Marina Beach.&lt;/p&gt;
+&lt;p&gt;And then I spent the next hour sitting near the waves. Looking around. Just enjoying myself. And then rode back home, and for the first time in over 4 years, slept before 12.&lt;/p&gt;
+&lt;p&gt;I did it again the next day. With a friend this time. My knees were already killing me since I practically had no physical activity before this. But I still did it again. My knees would literally kill me now if they had a way to.&lt;/p&gt;
+&lt;p&gt;I'm happy. Teen Angst has taken a break :)&lt;/p&gt;
+&lt;p&gt;Let this year be the one when I remove external dependencies on my happiness :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/2010-the-beginning-the-bicycle-ride-and-external-dependencies.html</guid><pubDate>Mon, 04 Jan 2010 01:01:03 GMT</pubDate></item><item><title>The Python Workshop</title><link>http://yuvi.in/blog/the-python-workshop.html</link><description>&lt;p&gt;We had a python &lt;em&gt;workshop&lt;/em&gt; at college a week back.&lt;/p&gt;
 &lt;p&gt;One hellova workshop it was! &lt;a href="http://kausikram.net/"&gt;Kausik&lt;/a&gt; conducted it, and about 14 people turned up (We picked 15, one girl had to miss it 'coz of fever). Every single one of them was there because they wanted to be there. This happened during semester holidays, so they came to college just for this. And from the feedback (and the actions that followed it) I got, it was worth their while.&lt;/p&gt;
 &lt;h3&gt;Teaching Python&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://kausikram.net/"&gt;Kausik&lt;/a&gt; did all the hard work, with me just going around helping people get unstuck. Watching people when they suddenly &lt;em&gt;get it&lt;/em&gt; is a really amazing feeling.&lt;/p&gt;
@@ -105,32 +111,4 @@
 &lt;/ul&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/what-i-learnt-from-the-hackfest-at-iitm.html</guid><pubDate>Wed, 07 Oct 2009 23:10:41 GMT</pubDate></item><item><title>Hackfest '09 - Expectations</title><link>http://yuvi.in/blog/hackfest-09-expectations.html</link><description>&lt;p&gt;I'm going to participate in &lt;a href="http://www.shaastra.org/2009/site/events/coding/hackfest"&gt;Hackfest&lt;/a&gt; at IITM's Shaastra, starting tomorrow. Will hopefully be a lot of fun - and may I be able to contribute my first ever patch during the event ;) Got permission to not get back home - but wondering, where would I stay? Probably pass out in front of the computers :)&lt;/p&gt;
 &lt;p&gt;I'll be hackin on GNOME Apps - hopefully &lt;a href="http://banshee-project.org/"&gt;Banshee&lt;/a&gt; (since that's one app I &lt;strong&gt;love&lt;/strong&gt;), or write a newish, smallish app with PyGTK. Anything would do but :)&lt;/p&gt;
 &lt;p&gt;Will be blogging more - Sadly, no camera, so no pictures :(&lt;/p&gt;
-&lt;p&gt;Anyone else coming along?&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/hackfest-09-expectations.html</guid><pubDate>Thu, 01 Oct 2009 01:27:12 GMT</pubDate></item><item><title>Code I've written so far</title><link>http://yuvi.in/blog/code-i-ve-written-so-far.html</link><description>&lt;p&gt;Code I have written so far:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/HiSlain"&gt;HiSlain&lt;/a&gt;: A static blog publishing system (NOT A DJANGO BLOG!). Runs this blog&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/wtfimb"&gt;wtfimb&lt;/a&gt;: The code that powers &lt;a href="http://busroutes.in"&gt;Busroutes.in&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/frailgrey"&gt;frailgrey&lt;/a&gt;: Markov Chain based page generator (pretty lame, actually)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/goodfather"&gt;GoodFather&lt;/a&gt;: Collection of utils for web data scraping and storing&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/reappy"&gt;reappy&lt;/a&gt;: A Twitter Search Application Framework&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/yuvipanda/sadivy"&gt;SadIvy&lt;/a&gt;: A pure WSGI URL Shortener&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Now, I've been doing a shit job of documenting them - none exists. Nor of writing tests - none exists. That should hopefully change soon :)&lt;/p&gt;
-&lt;p&gt;HiSlain and reappy are where I'm going to concentrate my efforts on for the next month or so.&lt;/p&gt;
-&lt;h4&gt;Task List for HiSlain&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Refactor code, clean it up so it doesn't look like proof for the &lt;a href="http://en.wikipedia.org/wiki/Infinite_monkey_theorem"&gt;Infinite Monkey Theorem&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add support for raw, unmanaged pages&lt;/li&gt;
-&lt;li&gt;Port a decent looking, simple theme to HiSlain&lt;/li&gt;
-&lt;li&gt;WRITE DOCUMENTATION!&lt;/li&gt;
-&lt;li&gt;Write some tests, and refactor the code to make it more testable&lt;/li&gt;
-&lt;li&gt;WRITE MORE DOCUMENTATION!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Task List for reappy&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Write a real application with it, so bugs can be fixed in the process&lt;/li&gt;
-&lt;li&gt;DOCUMENTATION!&lt;/li&gt;
-&lt;li&gt;Write some tests and refactor the code to make it more testable&lt;/li&gt;
-&lt;li&gt;MORE DOCUMENTATION!&lt;/li&gt;
-&lt;li&gt;Examples.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And ofcourse, new sub-pages over here for both of them (atleast). Stay tuned!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/code-i-ve-written-so-far.html</guid><pubDate>Thu, 01 Oct 2009 00:52:30 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Anyone else coming along?&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/hackfest-09-expectations.html</guid><pubDate>Thu, 01 Oct 2009 01:27:12 GMT</pubDate></item></channel></rss>

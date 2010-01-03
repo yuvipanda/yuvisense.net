@@ -1,7 +1,7 @@
 Code Highligting Plugin for HiSlain
 permalink: code-highligting-plugin-for-hislain.html
-tags: code, hislain
 published: 2009-07-17T23:44:21.926000
+tags: code, hislain
 
 I've been hacking 'round with [HiSlain][1], and wrote a syntax highlighting plugin for it. Nothing fancy - just uses [Pygments][2], but the process of modifying the plugin architecture to support this has been an awesome ride. I'll probably open up a new GitHub project just for HiSlain Themes and Plugins.
 
