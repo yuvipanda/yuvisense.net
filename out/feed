@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Fri, 12 Mar 2010 16:06:41 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>"We must take [India] as it is" - Jules Verne</title><link>http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html</link><description>&lt;p&gt;I've gotten back to reading fiction ever since I got my netbook (review comin up!). [Project Gutenberg][1] has been very helpful. Jules Verne's &lt;em&gt;Adventures of a Special Correspondent&lt;/em&gt; was the first one I completed. It is a good book - but not phenomenal. It does have a few very good moments, and one of them hit extremely close to home.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Fri, 12 Mar 2010 23:28:55 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Samsung N210 Review</title><link>http://yuvi.in/blog/samsung-n210-review.html</link><description>&lt;p&gt;I bought a brand new Samsung N210 Netbook about two weeks back - and have been using it almost non-stop since. I've been taking it to college every day, using it at every oportunity I get - on the college bus, on MTC buses, on the train, while waiting for the train, hell even &lt;em&gt;during&lt;/em&gt; a rather very boring class!&lt;/p&gt;
+&lt;h3&gt;The Great&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Screen! The &lt;strong&gt;matte&lt;/strong&gt; screen is totally awesome. Viewable under all conditions - full on sunlight during a train commute or at a weird angle snuggled under the desk during class. It is sharp, and IMO has enough resolution (1024x600). The bezel is small and not very distracting.&lt;/li&gt;
+&lt;li&gt;The Keyboard. 94% of a full size keyboard, I'm told. It is extremely comfortable, and I don't miss too many keys. I do find the right shift absolutely useless though. The chicklet keys look great too&lt;/li&gt;
+&lt;li&gt;The Looks. One guy asked me if I was carrying a white MacBook. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Good&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Touchpad. It is large and the mouse buttons are not bad. I don't know if it supports two button finger scroll on Linux - but it does work on Windows. My hands do accidentally touch it often while typing, moving my cursor unexpectedly - but I have been able to stop that by using my right thumb for space instead of my left.&lt;/li&gt;
+&lt;li&gt;The Battery. I seem to get around 8 hours of usage under varying circumstances and conditions - while nothing to laugh at, I was expecting more. Might be because I haven't been able to figure out a way to turn off the wifi chip from Linux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Bad&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Heat. The fan isn't very noisy, but the heat buildup is appreciable. I can't really work with it directly on my lap.&lt;/li&gt;
+&lt;li&gt;The inbuilt webcam. 0.3 Megapixels. Bleh!&lt;/li&gt;
+&lt;li&gt;WiFi. Drops &lt;em&gt;very&lt;/em&gt; often, and not very sensitive. Ubuntu Autodetected it though.&lt;/li&gt;
+&lt;li&gt;The SD Card Slot. It has a cover that comes right off, and I guarentee I'll lose it in a while.&lt;/li&gt;
+&lt;li&gt;Many of the Function Key functions aren't supported on Linux. Was able to make the Brightness keys work after a hack though.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Awful&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The ugly black sticker ad for &lt;em&gt;"Phoenix Hyperspace(tm) Instant-on"&lt;/em&gt;. Ewww! Atleast there is only one big sticker spoiling this white beauty&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Was it worth the 20k bucks I paid for it? I'm typing out this blog post while waiting at my Doctor's, so I'd say it &lt;em&gt;is&lt;/em&gt; well worth the 20k bucks paid :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/samsung-n210-review.html</guid><pubDate>Fri, 12 Mar 2010 20:41:32 GMT</pubDate></item><item><title>"We must take [India] as it is" - Jules Verne</title><link>http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html</link><description>&lt;p&gt;I've gotten back to reading fiction ever since I got my netbook (review comin up!). &lt;a href="http://gutenberg.org"&gt;Project Gutenberg&lt;/a&gt; has been very helpful. Jules Verne's &lt;em&gt;Adventures of a Special Correspondent&lt;/em&gt; was the first one I completed. It is a good book - but not phenomenal. It does have a few very good moments, and one of them hit extremely close to home.&lt;/p&gt;
 &lt;p&gt;Towards the end, when &lt;em&gt;Claudius Bombarnac&lt;/em&gt; rumbles about how the Chinese do not make full use of the engine's power - always keeping it running at 40 mph even though it could be pushed to do way more. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;"I agree with you, but where you have a railway you might as well get
@@ -116,10 +140,4 @@ the straw on the stream, as the thought is borne away by the imagination."&lt;/p
 &lt;/ol&gt;
 &lt;p&gt;Much simpler, and note that all four are things &lt;strong&gt;I could do myself&lt;/strong&gt;. Nothing depends on ideamonk. Maintainence works is almost zero. Nobody has keys to the cathedral, since this is not one. &lt;/p&gt;
 &lt;h4&gt;Please put your code on GitHub&lt;/h4&gt;
-&lt;p&gt;It has the least amount of friction for developers looking to contribute, and the least amount of work for you as maintainer. Thanks!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/anatomy-of-an-impromptu-hackathon-git-vs-svn.html</guid><pubDate>Wed, 21 Oct 2009 12:46:45 GMT</pubDate></item><item><title>Why I got rid of my fork of Waffle</title><link>http://yuvi.in/blog/why-i-got-rid-of-my-fork-of-waffle.html</link><description>&lt;p&gt;For those of you who didn't know, &lt;a href="http://github.com/bickfordb/waffle"&gt;Waffle&lt;/a&gt; is a &lt;a href="http://bret.appspot.com/entry/how-friendfeed-uses-mysql"&gt;schemaless storage layer&lt;/a&gt; that sits on top of SQLAlchemy. Something that I was initially very interested in.&lt;/p&gt;
-&lt;p&gt;Not anymore.&lt;/p&gt;
-&lt;p&gt;Why?&lt;/p&gt;
-&lt;p&gt;Because I found &lt;a href="http://www.mongodb.org/display/DOCS/Home"&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And fell in love.&lt;/p&gt;
-&lt;p&gt;Yes, I do know they both are different, but MongoDB has the things that attracted me to Waffle (very flexible schema, great querying, indexes) and is just as easy to set up (maybe not as easy as Waffle over SQLite, but only slightly less easier).&lt;/p&gt;
-&lt;p&gt;I &amp;lt;3 MongoDB. Let's see how long this lasts!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/why-i-got-rid-of-my-fork-of-waffle.html</guid><pubDate>Wed, 21 Oct 2009 00:27:55 GMT</pubDate></item></channel></rss>
+&lt;p&gt;It has the least amount of friction for developers looking to contribute, and the least amount of work for you as maintainer. Thanks!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/anatomy-of-an-impromptu-hackathon-git-vs-svn.html</guid><pubDate>Wed, 21 Oct 2009 12:46:45 GMT</pubDate></item></channel></rss>
