@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Fri, 12 Mar 2010 15:56:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>"We must take [India] as it is" - Jules Verne</title><link>http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html</link><description>&lt;p&gt;I've gotten back to reading fiction ever since I got my netbook (review comin up!). [Project Gutenberg][1] has been very helpful. Jules Verne's &lt;em&gt;Adventures of a Special Correspondent&lt;/em&gt; was the first one I completed. It is a good book - but not phenomenal. It does have a few very good moments, and one of them hit extremely close to home.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Fri, 12 Mar 2010 16:06:41 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>"We must take [India] as it is" - Jules Verne</title><link>http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html</link><description>&lt;p&gt;I've gotten back to reading fiction ever since I got my netbook (review comin up!). [Project Gutenberg][1] has been very helpful. Jules Verne's &lt;em&gt;Adventures of a Special Correspondent&lt;/em&gt; was the first one I completed. It is a good book - but not phenomenal. It does have a few very good moments, and one of them hit extremely close to home.&lt;/p&gt;
 &lt;p&gt;Towards the end, when &lt;em&gt;Claudius Bombarnac&lt;/em&gt; rumbles about how the Chinese do not make full use of the engine's power - always keeping it running at 40 mph even though it could be pushed to do way more. &lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;I agree with you, but where you have a railway you might as well get&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; all the advantage out of it that you can.&amp;quot;&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Bah!&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;said&lt;/span&gt; &lt;span class="n"&gt;Pan&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Chao&lt;/span&gt; &lt;span class="n"&gt;carelessly&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Speed,&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;said&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;is a gain of time--and to gain time--&amp;quot;&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Time does not exist in China, Monsieur Bombarnac, and it cannot exist&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; for a population of four hundred millions. There would not be enough&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; for everybody. And so we do not count by days and hours, but always by&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; moons and watches.&amp;quot;&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Which is more poetical than practical,&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;remark&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Practical, Mr. Reporter? You Westerners are never without that word in&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; your mouth. To be practical is to be the slave of time, work, money,&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; business, the world, everybody else, and one&amp;#39;s self included. I confess&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; that during my stay in Europe--you can ask Doctor Tio-King--I have not&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; been very practical, and now I return to Asia I shall be less so. I&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; shall let myself live, that is all, as the cloud floats in the breeze,&lt;/span&gt;
-&lt;span class="s"&gt;  &amp;gt; the straw on the stream, as the thought is borne away by the imagination.&amp;quot;&lt;/span&gt;
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;I see,&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;said&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;we must take China as it is.&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;blockquote&gt;
+&lt;p&gt;"I agree with you, but where you have a railway you might as well get
+all the advantage out of it that you can."&lt;/p&gt;
+&lt;p&gt;"Bah!" said Pan-Chao carelessly.&lt;/p&gt;
+&lt;p&gt;"Speed," said I, "is a gain of time--and to gain time--"&lt;/p&gt;
+&lt;p&gt;"Time does not exist in China, Monsieur Bombarnac, and it cannot exist
+for a population of four hundred millions. There would not be enough
+for everybody. And so we do not count by days and hours, but always by
+moons and watches."&lt;/p&gt;
+&lt;p&gt;"Which is more poetical than practical," I remark.&lt;/p&gt;
+&lt;p&gt;"Practical, Mr. Reporter? You Westerners are never without that word in
+your mouth. To be practical is to be the slave of time, work, money,
+business, the world, everybody else, and one's self included. I confess
+that during my stay in Europe--you can ask Doctor Tio-King--I have not
+been very practical, and now I return to Asia I shall be less so. I
+shall let myself live, that is all, as the cloud floats in the breeze,
+the straw on the stream, as the thought is borne away by the imagination."&lt;/p&gt;
+&lt;p&gt;"I see," said I, "we must take China as it is."&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;India too, as I see it from where I am, is pretty similar. Practacality can go shoot itself in the head. &lt;/p&gt;
 &lt;p&gt;What do I gain by copying stuff from the board to the notebook? Nothing, but do it anyway because &lt;em&gt;that is how it has always been done&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;Why should I go back 10 years by not using a mobile phone? Because we aren't good enough to hold your attention long enough, so we are going to force you to not do anything else even if you are going to be bored to death (even if literally).&lt;/p&gt;
