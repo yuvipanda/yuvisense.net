@@ -1,0 +1,13 @@
+Dokuwiki plugin to easily embed Gists
+permalink: dokuwiki-plugin-to-easily-embed-gists.html
+published: 2010-04-19T19:33:03.730325
+tags: code, plugin
+
+I **love** [Gist][1].
+
+I recently started a project that required me to embed gists in [Dokuwiki][2]. I hunted around and found no plugins, so [created][3] my own. Needs the superawesome [command][4] plugin too. Released under the 3 clause BSD License.
+
+[1]: http://gist.github.com
+[2]: http://dokuwiki.org
+[3]: http://www.dokuwiki.org/doku.php?id=plugin:gist
+[4]: http://www.dokuwiki.org/doku.php?id=plugin:command
