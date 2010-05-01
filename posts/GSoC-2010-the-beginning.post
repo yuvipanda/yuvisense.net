@@ -1,0 +1,22 @@
+GSoC 2010 - The Beginning
+permalink: gsoc-2010-the-beginning.html
+published: 2010-05-01T18:51:27.479117
+tags: gsoc, personal
+
+I mentioned this in passing in my [earlier post][1], and was tweeting about it quite furiously - I've been selected to work on [Cheese][2] for this year's [Google Summer of Code][3] :D 
+
+[Link to my, uhm, *cheesy* proposal][4]
+
+### What Now? ###
+
+Getting accepted doesn't mean shit. Actually finishing whatever I was supposed to within 3 months does mean *something* - especially since I've taken on quite a bit of stuff to do (Move to new language + 2 new features). I'm quite the n00b - first time I'll be doing just *one* thing over 3 months. Will be setting up a way of monitoring progress (probably via set milestones) soon enough. Will keep this place posted :)
+
+Also, say Hi to my mentor [daniel siegel][5]. Him and fellow cheese-dev [Flippio Argiolas][6], who were extremely helpful in getting my proposal whipped into shape (It's a gist, so you can see how it eveolved over time). 
+
+
+[1]: http://yuvi.in/blog/hacking-more.html
+[2]: http://yuvi.in/blog/hacking-more.html
+[3]: socghop.appspot.com/gsoc/program/list_projects/google/gsoc2010
+[4]: http://gist.github.com/356202
+[5]: http://home.cs.tum.edu/~siegel/
+[6]: http://blogs.gnome.org/fargiolas/
