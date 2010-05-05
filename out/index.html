@@ -39,6 +39,39 @@ pageTracker._trackPageview();
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/gsoc-milestones-vala-build-using-autotools.html" rel="bookmark">GSoC Milestones - Vala Build using AutoTools</a>
+   </h3>
+   <div class="entry-content">
+       <p><em>I'm using a <a href="http://www.rememberthemilk.com/home/yuvipanda/13485943/">RTM List</a> to track my milestones for this <a href="http://yuvi.in/blog/gsoc-2010-the-beginning.html">my GSoC</a> this year. I'll be making a blog post for each item ticked off that list, to share what I've learnt in my journey from n00b to someone whose code is good enough to be included in GNOME. This is part 1 in the series, where I tell you about autotools</em></p>
+<p>My GSoC project involves, moving major parts (UI) of Cheese to a new language - <a href="http://live.gnome.org/Vala">Vala</a>. Vala is more an extremely glorious C preprocessor than a language of its own - it just translates down to GObject based C code, rather than bytecode/objectcode. The syntax is very C#ish - I was using <a href="http://www.emacswiki.org/emacs/CSharpMode">csharp-mode</a> in emacs to code vala till I got bored enough to download <a href="http://live.gnome.org/Vala/Emacs">vala-mode</a>. It's got closures - haven't used them yet, here is to hoping they're real closures. It has <em>tons</em> of libraries - it takes a few (minutes|hours) to write a binding for any C library, so many bindings already exist. You don't lose speed - Vala is compiled down to C code. It also has one of Java's suckiest features - <em>Checked Exceptions</em>. The documentation is non existent - you've to pretty much read through the bindings, or the original C library's documentation to get anything done. And not many people know such a language exists ([Kausik][kausik] for example - but he also didn't know you could output pdf from latex, so I don't think his opinion counts :D)</p>
+<p>Cheese uses autotools for building. I had to tweak their script to make it build my Vala code as well. I've never worked with any of the autotools stuff before - I didn't even know <code>.ac</code> stood for <code>autoconf</code> and <code>.am</code> stood for automake. No big deal - Google knows it all and will tell you for free. I JFGI and found a bunch of articles about using autotools to successfully build vala projects. After reading <a href="http://www.lrde.epita.fr/~adl/autotools.html">this monstrous (180+ slides, but ~500 pages) Autotools presentation</a> (which is actually very, <em>very</em> good, btw), I had a working build script. It built my single <code>cheese.vala</code> file that did nothing but run a loop and wait to be terminated. It had a place where I could add more <code>.vala</code> files and they should (should) be included in the build. It was hackish, but like most hacks, it worked. <a href="http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html">On My Machine</a>(tm). </p>
+<p>Nowhere else. Turned out my script wasn't working at all - just faking it to me. I had initially tested out <code>valac</code> (the vala compiler), which had produced a <code>.c</code> file. Since <code>make</code> was supposed to produce the same file, and it wasn't stale (I hadn't touched my <code>cheese.vala</code>), it just proceeded to compiling the <code>.c</code> files with <code>gcc</code>. The Vala part of the build script wasn't being executed at all. Removing the <code>.c</code> file told me that my hackish script hadn't worked at all. </p>
+<p>After banging my head for a while to figure out <em>why</em> it wasn't working, I finally landed up on the official autotools docs. Autotools had added <a href="http://www.gnu.org/software/hello/manual/automake/Vala-Support.html">native vala support</a>. The hack I found was not necessary. </p>
+<p><em>facepalm</em></p>
+<p><strong>Moral of the Story</strong>: RTFM comes first, not JFGI.</p>
+<p>Anyway, I rewrote the build script to be much more cleaner in a couple of minutes. And it worked. </p>
+<p>Build systems are actually a lot of fun once you get the hang of it. A black screen with fast scrolling green text cryptic to everyone else but totally sensible to you is incredibly attractive, no? :)</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/cheese.html">cheese</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Wednesday 05 May '10 | <a href="http://yuvi.in/blog/gsoc-milestones-vala-build-using-autotools.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+        
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
        <a href="http://yuvi.in/blog/gsoc-milestone-0-what-does-my-project-do.html" rel="bookmark">GSoC Milestone 0 - What does my project do?</a>
    </h3>
    <div class="entry-content">
@@ -318,58 +351,6 @@ involvement, was called a "hack."</p>
         </div>
         <div class='entry-date'>
             Published at Friday 12 March '10 | <a href="http://yuvi.in/blog/samsung-n210-review.html#disqus_thread">View Comments</a>
-        </div>
-    </div>
-</div>
-</div>
-
-    
-        
-<div class="post">
-    <div class="content">
-   <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html" rel="bookmark">&#34;We must take [India] as it is&#34; - Jules Verne</a>
-   </h3>
-   <div class="entry-content">
-       <p>I've gotten back to reading fiction ever since I got my netbook (review comin up!). <a href="http://gutenberg.org">Project Gutenberg</a> has been very helpful. Jules Verne's <em>Adventures of a Special Correspondent</em> was the first one I completed. It is a good book - but not phenomenal. It does have a few very good moments, and one of them hit extremely close to home.</p>
-<p>Towards the end, when <em>Claudius Bombarnac</em> rumbles about how the Chinese do not make full use of the engine's power - always keeping it running at 40 mph even though it could be pushed to do way more. </p>
-<blockquote>
-<p>"I agree with you, but where you have a railway you might as well get
-all the advantage out of it that you can."</p>
-<p>"Bah!" said Pan-Chao carelessly.</p>
-<p>"Speed," said I, "is a gain of time--and to gain time--"</p>
-<p>"Time does not exist in China, Monsieur Bombarnac, and it cannot exist
-for a population of four hundred millions. There would not be enough
-for everybody. And so we do not count by days and hours, but always by
-moons and watches."</p>
-<p>"Which is more poetical than practical," I remark.</p>
-<p>"Practical, Mr. Reporter? You Westerners are never without that word in
-your mouth. To be practical is to be the slave of time, work, money,
-business, the world, everybody else, and one's self included. I confess
-that during my stay in Europe--you can ask Doctor Tio-King--I have not
-been very practical, and now I return to Asia I shall be less so. I
-shall let myself live, that is all, as the cloud floats in the breeze,
-the straw on the stream, as the thought is borne away by the imagination."</p>
-<p>"I see," said I, "we must take China as it is."</p>
-</blockquote>
-<p>India too, as I see it from where I am, is pretty similar. Practacality can go shoot itself in the head. </p>
-<p>What do I gain by copying stuff from the board to the notebook? Nothing, but do it anyway because <em>that is how it has always been done</em>. </p>
-<p>Why should I go back 10 years by not using a mobile phone? Because we aren't good enough to hold your attention long enough, so we are going to force you to not do anything else even if you are going to be bored to death (even if literally).</p>
-<p>Why should I use Turbo C, even though it is extremely antique and doesn't really conform to any standards? Because that is what the people setting the syllabus learnt! (Nothing personal, TC.exe - just that I hope people stop believing Windows was written in Java/VB because <code>you can do GUIs only in those!</code>)</p>
-<p><em>Doesn't matter if there is a better way, if it is not the way it is done. Conservatism. Bah</em></p>
-<p>I'm talking only from my point of view, from where I have been (apparently) hurt. I am sure this is not the only place - this happens everywhere. Anti-Change Conservatism. Which I am told, is not even the true meaning of the word <code>conservatism</code>. I hope someone sometimes explains to me what the word was supposed to mean, and how it came to represent parents who won't let their kids out to have fun with their friends.</p>
-<p>Good news is, trains in China are no longer run at a max of 40 mph. Change does occur, but it takes time, and hurts those who live during it. We are those people. I hope.</p>
-   </div>
-   <div class="entry-meta">
-        <div class='entry-tags'>
-            Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/india.html">india</a>
-            
-            <a rel="tag" href="http://yuvi.in/blog/tag/reading.html">reading</a>
-            
-        </div>
-        <div class='entry-date'>
-            Published at Thursday 11 March '10 | <a href="http://yuvi.in/blog/-we-must-take-india-as-it-is-jules-verne.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>
