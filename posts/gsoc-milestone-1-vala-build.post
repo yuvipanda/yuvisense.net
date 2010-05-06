@@ -1,6 +1,6 @@
 GSoC Milestones - Vala Build using AutoTools
 permalink: gsoc-milestones-vala-build-using-autotools.html
-published: 2010-05-05T23:49:48.599006
+published: 2010-05-06T07:00:20.413687
 tags: gsoc, cheese
 
 *I'm using a [RTM List][1] to track my milestones for this [my GSoC][2] this year. I'll be making a blog post for each item ticked off that list, to share what I've learnt in my journey from n00b to someone whose code is good enough to be included in GNOME. This is part 1 in the series, where I tell you about autotools*
@@ -28,6 +28,6 @@ Build systems are actually a lot of fun once you get the hang of it. A black scr
 [cs-mode]: http://www.emacswiki.org/emacs/CSharpMode
 [vala-mode]: http://live.gnome.org/Vala/Emacs
 [omm]: http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html
-[kausikram]: http://kausikram.net/
+[kausik]: http://kausikram.net/
 [autotools-pres]: http://www.lrde.epita.fr/~adl/autotools.html
 [vala-support]: http://www.gnu.org/software/hello/manual/automake/Vala-Support.html
