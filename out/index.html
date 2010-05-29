@@ -39,6 +39,100 @@ pageTracker._trackPageview();
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/cheese-gsoc-report-week-1.html" rel="bookmark">Cheese GSoC Report - Week 1</a>
+   </h3>
+   <div class="entry-content">
+       <p>First week of official coding is over. What do I have to show for it?</p>
+<ol>
+<li>Moved code from Github to GNOME Git (Thanks fargiolas!)</li>
+<li>Learnt how to use GTKBuilder, and how to autoconnect signals to vala callback functions.</li>
+<li>Learnt <em>some</em> of the intricacies of Gtk+ Layouts (They still have a lot to teach me!)</li>
+<li>Got a very basic version of the basic Cheese window up and running.</li>
+<li>Learnt how to embed Clutter into the Gtk+ base of Cheese.</li>
+</ol>
+<p>So far so good. I don't quite like the pace of my work - I should be going faster. Hopefully I won't be feeling like this at the end of next week :)</p>
+<p>By next week, I hope to have accomplished...</p>
+<ol>
+<li>Pixel perfect UI, replicating exactly what is in cheese right now (except for the viewport, ofcourse)</li>
+<li>Vala bindings (<code>.vapi</code> files, basically) for <code>libcheese</code></li>
+<li>Thumbnail View finished (either wrap and use current code, steal some some other project or write my own)</li>
+<li>Basic work on modifying libcheese to support video output to a ClutterTexture</li>
+</ol>
+<p>GSoC is primarily about learning, so what have I learnt so far?</p>
+<ol>
+<li><code>git</code> is a powerful tool, provided you do not fight it (thanks fargiolas!)</li>
+<li>Just because code works, doesn't mean it is good enough! (thanks _ke!)</li>
+<li>When you are stuck, STOP AND ASK FOR DIRECTIONS! (thanks fargiolas!)</li>
+</ol>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/gnome.html">gnome</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/report.html">report</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/cheese-gsoc-report-week-1.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+        
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html" rel="bookmark">Vala, GTKBuilder and Autoconnecting Signal Handlers</a>
+   </h3>
+   <div class="entry-content">
+       <p><strong>Note</strong>: I'm not an expert on Vala, GTK+, or anything else for that matter. If I am off base someplace, comment.</p>
+<p>I spent quite a some time today trying to get GTKBuilder to automagically connect all my signals to their handlers. I tripped up at a few places, and so recording them here for posterity.</p>
+<ol>
+<li>
+<p>If you are using instance methods (like most of us are), you've to decorate your handler function with the attribute <code>[CCode (instance_pos=-1)]</code>. This makes sure that the function is passed the <code>this</code> pointer as last argument, rather than first. You've to do this because <code>Builder.connect_signals</code> passes the instance as last parameter (<code>user_data</code>), and by aligning your <code>this</code> pointer with <code>user_data</code>, you make sure the correct instance is called.</p>
+</li>
+<li>
+<p>Make sure your handler function signature matches what is expected. Ignore the <code>user_data</code> parameter of most signals - it is used internally by <code>Builder.connect_signals</code> (see above point).</p>
+</li>
+<li>
+<p>Make sure you pass <code>--pkg gmodule-2.0</code> to your <code>valac</code>. If you're using Autotools, this means you pass it to <code>VALAFLAGS</code>.</p>
+</li>
+<li>
+<p>sure your C compiler is called with <code>-dynamic-export</code>. I'm told this enabled support for <code>dlopen</code> in the binary produced.</p>
+</li>
+<li>
+<p>Mangle your names properly. <code>Cheese.MainWindow.on_quit()</code> becomes <code>cheese_main_window_on_quit</code> on C, and that is what GTKBuilder expects. If you are not sure how your function name is mangled by <code>valac</code>, checkout the generated <code>.c</code> file.</p>
+</li>
+</ol>
+<p>If you do all these 5 things right and you're still having trouble, turn up on #vala at irc.gimp.net and ask the helpful folks there :)</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/vala.html">vala</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+        
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
        <a href="http://yuvi.in/blog/gsoc-milestones-vala-build-using-autotools.html" rel="bookmark">GSoC Milestones - Vala Build using AutoTools</a>
    </h3>
    <div class="entry-content">
@@ -277,80 +371,6 @@ involvement, was called a "hack."</p>
         </div>
         <div class='entry-date'>
             Published at Monday 19 April '10 | <a href="http://yuvi.in/blog/pycon-india-2009.html#disqus_thread">View Comments</a>
-        </div>
-    </div>
-</div>
-</div>
-
-    
-        
-<div class="post">
-    <div class="content">
-   <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/webfaction-review.html" rel="bookmark">Webfaction Review</a>
-   </h3>
-   <div class="entry-content">
-       <p>I've been running <a href="http://yuvi.in">yuvi.in</a> and <a href="http://busroutes.in">busroutes.in</a> on my [Webfaction][3] account for a while. I got the account for free - after Remi Delon from Webfaction noticed one of my tweets.</p>
-<p>Review: I'm going to save that when my free one year plan expires, I can <em>upgrade</em> to one of their better plans. It is <em>so</em> good :)</p>
-<p>Highly Reccomended!</p>
-   </div>
-   <div class="entry-meta">
-        <div class='entry-tags'>
-            Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/review.html">review</a>
-            
-            <a rel="tag" href="http://yuvi.in/blog/tag/tech.html">tech</a>
-            
-        </div>
-        <div class='entry-date'>
-            Published at Monday 22 March '10 | <a href="http://yuvi.in/blog/webfaction-review.html#disqus_thread">View Comments</a>
-        </div>
-    </div>
-</div>
-</div>
-
-    
-        
-<div class="post">
-    <div class="content">
-   <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/samsung-n210-review.html" rel="bookmark">Samsung N210 Review</a>
-   </h3>
-   <div class="entry-content">
-       <p>I bought a brand new Samsung N210 Netbook about two weeks back - and have been using it almost non-stop since. I've been taking it to college every day, using it at every oportunity I get - on the college bus, on MTC buses, on the train, while waiting for the train, hell even <em>during</em> a rather very boring class!</p>
-<h3>The Great</h3>
-<ul>
-<li>The Screen! The <strong>matte</strong> screen is totally awesome. Viewable under all conditions - full on sunlight during a train commute or at a weird angle snuggled under the desk during class. It is sharp, and IMO has enough resolution (1024x600). The bezel is small and not very distracting.</li>
-<li>The Keyboard. 94% of a full size keyboard, I'm told. It is extremely comfortable, and I don't miss too many keys. I do find the right shift absolutely useless though. The chicklet keys look great too</li>
-<li>The Looks. One guy asked me if I was carrying a white MacBook. </li>
-</ul>
-<h3>The Good</h3>
-<ul>
-<li>The Touchpad. It is large and the mouse buttons are not bad. I don't know if it supports two button finger scroll on Linux - but it does work on Windows. My hands do accidentally touch it often while typing, moving my cursor unexpectedly - but I have been able to stop that by using my right thumb for space instead of my left.</li>
-<li>The Battery. I seem to get around 8 hours of usage under varying circumstances and conditions - while nothing to laugh at, I was expecting more. Might be because I haven't been able to figure out a way to turn off the wifi chip from Linux.</li>
-</ul>
-<h3>The Bad</h3>
-<ul>
-<li>The Heat. The fan isn't very noisy, but the heat buildup is appreciable. I can't really work with it directly on my lap.</li>
-<li>The inbuilt webcam. 0.3 Megapixels. Bleh!</li>
-<li>WiFi. Drops <em>very</em> often, and not very sensitive. Ubuntu Autodetected it though.</li>
-<li>The SD Card Slot. It has a cover that comes right off, and I guarentee I'll lose it in a while.</li>
-<li>Many of the Function Key functions aren't supported on Linux. Was able to make the Brightness keys work after a hack though.</li>
-</ul>
-<h3>The Awful</h3>
-<ul>
-<li>The ugly black sticker ad for <em>"Phoenix Hyperspace(tm) Instant-on"</em>. Ewww! Atleast there is only one big sticker spoiling this white beauty</li>
-</ul>
-<p>Was it worth the 20k bucks I paid for it? I'm typing out this blog post while waiting at my Doctor's, so I'd say it <em>is</em> well worth the 20k bucks paid :)</p>
-   </div>
-   <div class="entry-meta">
-        <div class='entry-tags'>
-            Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/tech.html">tech</a>
-            
-        </div>
-        <div class='entry-date'>
-            Published at Friday 12 March '10 | <a href="http://yuvi.in/blog/samsung-n210-review.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>

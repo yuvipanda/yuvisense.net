@@ -3,7 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
     <title>
         
-About Me
+Posts Tagged vala
  | YuviSense
     </title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -34,39 +34,54 @@ pageTracker._trackPageview();
             </div>
             <br />
             
-
+    
+        
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/about-me.html" rel="bookmark">About Me</a>
+       <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html" rel="bookmark">Vala, GTKBuilder and Autoconnecting Signal Handlers</a>
    </h3>
    <div class="entry-content">
-       <p>Hi, I'm Yuvi and this is my personal web site. I am a second year student at an Engineering College in Chennai, and I code for fun and (sometimes) profit. I write stories when bored in class, and dabble a bit in Photography and Graphic Design. </p>
-<p>Python is my primary language now. But it wasn't my first - I had a long fling with .NET before this, and stil flirt around with a lot of languages and environments. My first serious apps were data collectors and web scrappers. </p>
-<p>I owned an awesome Canon PowerShot S3, which sadly passed away after taking ~47,000 pictures, several hours of video and quite a lot of rather rough usage. </p>
-<h3>Egoistical Biography</h3>
-<h4>Written in the third person during a rather boring and dull class</h4>
-<p>Started coding at 9, writing C programs with Turbo C to 'impress' people  with his own header files, rudimentary BGI graphics and music with <code>sound()</code>, <code>delay()</code> and <code>nosound()</code>. His magnum opus at age 11 was a game of <a href="http://en.wikipedia.org/wiki/Forms_of_cricket#Book_Cricket">Book Cricket</a>, the source of which was sadly lost in a networking accident. </p>
-<p>Introduced to VB6 at 12 by a freak syllabus change, he was immediately hooked by the ease with which you can <a href="http://www.google.co.in/search?q=changing+color+of+textboxes+vb6">change textbox colors</a> in a single line of code. A year of <em>really</em> horrible code followed, until the book <a href="http://vb.mvps.org/hardweb/hardbook.htm">Hardcore Visual Basic</a> turned up in the <a href="http://www.microsoft.com/emea/msdn/communitydistribution/">MSDN CDs</a> stolen from his cousin <a href="http://sudarmuthu.com">Sudar</a>. It taught him pointers and stuff about OOP. His code still sucked.</p>
-<p>And then the class ended.</p>
+       <p><strong>Note</strong>: I'm not an expert on Vala, GTK+, or anything else for that matter. If I am off base someplace, comment.</p>
+<p>I spent quite a some time today trying to get GTKBuilder to automagically connect all my signals to their handlers. I tripped up at a few places, and so recording them here for posterity.</p>
+<ol>
+<li>
+<p>If you are using instance methods (like most of us are), you've to decorate your handler function with the attribute <code>[CCode (instance_pos=-1)]</code>. This makes sure that the function is passed the <code>this</code> pointer as last argument, rather than first. You've to do this because <code>Builder.connect_signals</code> passes the instance as last parameter (<code>user_data</code>), and by aligning your <code>this</code> pointer with <code>user_data</code>, you make sure the correct instance is called.</p>
+</li>
+<li>
+<p>Make sure your handler function signature matches what is expected. Ignore the <code>user_data</code> parameter of most signals - it is used internally by <code>Builder.connect_signals</code> (see above point).</p>
+</li>
+<li>
+<p>Make sure you pass <code>--pkg gmodule-2.0</code> to your <code>valac</code>. If you're using Autotools, this means you pass it to <code>VALAFLAGS</code>.</p>
+</li>
+<li>
+<p>sure your C compiler is called with <code>-dynamic-export</code>. I'm told this enabled support for <code>dlopen</code> in the binary produced.</p>
+</li>
+<li>
+<p>Mangle your names properly. <code>Cheese.MainWindow.on_quit()</code> becomes <code>cheese_main_window_on_quit</code> on C, and that is what GTKBuilder expects. If you are not sure how your function name is mangled by <code>valac</code>, checkout the generated <code>.c</code> file.</p>
+</li>
+</ol>
+<p>If you do all these 5 things right and you're still having trouble, turn up on #vala at irc.gimp.net and ask the helpful folks there :)</p>
    </div>
    <div class="entry-meta">
         <div class='entry-tags'>
             Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/personal.html">personal</a>
+            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/vala.html">vala</a>
             
         </div>
         <div class='entry-date'>
-            Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/about-me.html#disqus_thread">View Comments</a>
+            Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>
 </div>
 
-<script type="text/javascript">
-    var disqus_developer = 1;
-</script>
-<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/yuvisense/embed.js"></script><noscript><a href="http://yuvisense.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+<h4 style="margin:20px"><a href="http://yuvi.in/blog/archives.html">View complete archives</a></h4>
 
             <br />
             <div class="footer">
