@@ -1,0 +1,34 @@
+Cheese GSoC Report - Week 3
+permalink: cheese-gsoc-report-week-3.html
+published: 2010-06-13T04:24:14.747650
+tags: gsoc, gnome, report
+
+Third week of the Summer of Code is over! And during this week....
+
+1. Successfully wrapped up the core cheese functionality (`libcheese`) with a vala wrapper
+2. Made Photo Mode work
+3. Made Video Mode work
+4. Made Burst Mode work
+5. Made cheese single instance using `libunique`
+6. Started work on cleaning up GConf code.
+
+In [last week's report][1], I mentioned that I didn't quite like my pace of work. It is still the same (approx. 3 hours a day on average, excluding overhead) - but I've come to accept that it is okay. No more bitching about it, as long as I'm meeting my goals.
+
+Last week's predictions were to complete libcheese wrapping, photo mode, video mode and burst mode. Set goals accomplished with ample time to spare - time that was spent trying to get countdown animations to work (still haven't managed), and make cheese single instance. I under-estimated last week - should improve accuracy.
+
+By next week, I hope to have accomplished...
+
+1. Fully functional preferences dialog box
+2. Countdown animations
+3. Full GConf integration (i.e. remember all your preferences)
+4. Full blown keybindings (Basically `<Esc>` to cancel, since the others are already implemented)
+5. Trash/Delete implementation
+
+It would have everything Cheese 2.30.1 has, except for Effects.
+
+And what did I learn this week?
+
+1. RTFM. Again. And again. THEN ask on IRC. 
+2. How to use gdb. I've only cursorily used it before - but digging into it deeper now (thank you, segfault!)
+
+[1]: http://yuvi.in/blog/cheese-gsoc-report-week-2.html
