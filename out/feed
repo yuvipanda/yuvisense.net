@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Sun, 13 Jun 2010 04:24:18 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cheese GSoC Report - Week 3</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-3.html</link><description>&lt;p&gt;Third week of the Summer of Code is over! And during this week....&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Tue, 22 Jun 2010 02:04:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cheese GSoC Report - Week 3</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-3.html</link><description>&lt;p&gt;Third week of the Summer of Code is over! And during this week....&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Successfully wrapped up the core cheese functionality (&lt;code&gt;libcheese&lt;/code&gt;) with a vala wrapper&lt;/li&gt;
 &lt;li&gt;Made Photo Mode work&lt;/li&gt;
@@ -23,7 +23,21 @@
 &lt;ol&gt;
 &lt;li&gt;RTFM. Again. And again. THEN ask on IRC. &lt;/li&gt;
 &lt;li&gt;How to use gdb. I've only cursorily used it before - but digging into it deeper now (thank you, segfault!)&lt;/li&gt;
-&lt;/ol&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-3.html</guid><pubDate>Sun, 13 Jun 2010 04:24:14 GMT</pubDate></item><item><title>Cheese GSoC Report - Week 2</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-2.html</link><description>&lt;p&gt;Second week of the (rather hot and sweaty) Summer of Code is over! And during this week....&lt;/p&gt;
+&lt;/ol&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-3.html</guid><pubDate>Sun, 13 Jun 2010 04:24:14 GMT</pubDate></item><item><title>Cheese GSoC Report - Week 3</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-3.html</link><description>&lt;p&gt;Fourth week of the Summer of Code was over a few days back, and this report is overdue :( I've not been able to code as much as I wanted to this week - due to various non-technical issues. Will compensate in the next week.&lt;/p&gt;
+&lt;p&gt;Last week...&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Countdown Animations (Thanks to _ke for cleanup!)&lt;/li&gt;
+&lt;li&gt;GConf Cleanup&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Yes, that was it. &lt;/p&gt;
+&lt;p&gt;Totally failed to meet last week's goals. Sigh.&lt;/p&gt;
+&lt;p&gt;By next week, I hope to have accomplished...&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Video Effects file format reader&lt;/li&gt;
+&lt;li&gt;Basic Effects application to the currently playing pipeline.&lt;/li&gt;
+&lt;li&gt;Mockups on best weay to present effects UI to user&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is to hoping the coming week turns out better than last one :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-3.html</guid><pubDate>Sun, 13 Jun 2010 04:24:14 GMT</pubDate></item><item><title>Cheese GSoC Report - Week 2</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-2.html</link><description>&lt;p&gt;Second week of the (rather hot and sweaty) Summer of Code is over! And during this week....&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Replicated most of the UI of Cheese&lt;/li&gt;
 &lt;li&gt;Learnt how to make C and Vala code co-exist (Thanks folks at #vala!)&lt;/li&gt;
@@ -121,9 +135,4 @@ involvement, was called a "hack."&lt;/p&gt;
 &lt;p&gt;Building things for the fun of building them is hacking. And &lt;a href="http://db.glug-bom.org/lug-authors/philip/docs/hackers-not-crackers.html"&gt;hacking is not illegally breaking into computers&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;I like hacking. I want to be a real hacker. I can't call myself one yet.&lt;/p&gt;
 &lt;p&gt;I'm putting this up as a reminder to myself - about what is important and what isn't. Here is to hoping I remember to say &lt;em&gt;No&lt;/em&gt; more often. Here is to hoping that the next time I'm bored, I write something rather than idle on IRC. GSoC (a bigger post about it coming up) is helping - a lot. &lt;/p&gt;
-&lt;p&gt;I'll do a monthly 'things I've hacked on' post, and see how many things turn up on that :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/hacking-more.html</guid><pubDate>Wed, 21 Apr 2010 20:08:24 GMT</pubDate></item><item><title>How I spent the Day today</title><link>http://yuvi.in/blog/how-i-spent-the-day-today.html</link><description>&lt;p&gt;Wake up at 10. Roll around bed for half an hour. Chase brother away from &lt;em&gt;your&lt;/em&gt; computer (on which he was playing GTA (or NFS)). Check mail. Find something to code on, code. Check mail. Check &lt;a href="http://programming.reddit.com"&gt;proggit&lt;/a&gt;. Check &lt;a href="http://news.ycombinator.com"&gt;HN&lt;/a&gt;. Waste some time on &lt;a href="http://twitter.com/yuvipanda"&gt;Twitter&lt;/a&gt;. Waste some more time on &lt;a href="irc://irc.oftc.net/hackers-india"&gt;IRC&lt;/a&gt;. Check mail. Check proggit. Check HN. Tab around, really fast. Tab around, really fast. Go have breakfast. Or lunch - doesn't matter what you call it. &lt;/p&gt;
-&lt;p&gt;Finish eating, watch TV a bit. Bitch about how nothing on TV is worth watching. Come back to room, chase away brother playin games again. Start codin something. Tab to Firefox to read some docs. Check mail. Check proggit. Check HN. Check Twitter. Check IRC. Check mail. Read the documentation I really opened Firefox for. Edit a bit more code. Check mail. Check proggit. Check HN. Check Twitter. Check IRC. &lt;/p&gt;
-&lt;p&gt;Go upstairs. Bitch about how there was nothing to eat. Grab biscuits and water. Look at the time. Look at the date. Feel &lt;strong&gt;Ghosh! My exams are nearing! Maybe I should start studying?!&lt;/strong&gt;. Go back to computer. Check mail. Check proggit. Check HN. Check Twitter. Check IRC. Bitch about exams on IRC. Feel &lt;strong&gt;Fuck exams! Fuck marks! I don't need none of that shit!&lt;/strong&gt;. Feel good about yorself. Check mail. Check proggit. Check twitter. Congratulate yourself on skipping HN. Go back to IRC.&lt;/p&gt;
-&lt;p&gt;Get on Facebook. Reply to comments. Post vague sounding status messages. Comment on pictures, randomly varying between variants of &lt;em&gt;Cute!&lt;/em&gt; and &lt;em&gt;lol rofl look at that haha!&lt;/em&gt;. Brag on Facebook. Check proggit. Check HN. Check Twitter. Congratulate self on skipping IRC.&lt;/p&gt;
-&lt;p&gt;Go back to code. Read documentation. Check mail. IM people and have philosophical discussions. Flirt around. Feel tired. Think about wasted day. Resolve to make next day better. Think about studying. Decide it is too late. Go to sleep.&lt;/p&gt;
-&lt;p&gt;Repeat :D&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/how-i-spent-the-day-today.html</guid><pubDate>Tue, 20 Apr 2010 02:05:08 GMT</pubDate></item></channel></rss>
+&lt;p&gt;I'll do a monthly 'things I've hacked on' post, and see how many things turn up on that :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/hacking-more.html</guid><pubDate>Wed, 21 Apr 2010 20:08:24 GMT</pubDate></item></channel></rss>

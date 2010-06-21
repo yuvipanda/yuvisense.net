@@ -1,0 +1,23 @@
+Cheese GSoC Report - Week 3
+permalink: cheese-gsoc-report-week-3.html
+tags: gsoc, gnome, report
+published: 2010-06-13T04:24:14.747650
+
+Fourth week of the Summer of Code was over a few days back, and this report is overdue :( I've not been able to code as much as I wanted to this week - due to various non-technical issues. Will compensate in the next week.
+
+Last week...
+
+1. Countdown Animations (Thanks to _ke for cleanup!)
+2. GConf Cleanup
+
+Yes, that was it. 
+
+Totally failed to meet last week's goals. Sigh.
+
+By next week, I hope to have accomplished...
+
+1. Video Effects file format reader
+2. Basic Effects application to the currently playing pipeline.
+3. Mockups on best weay to present effects UI to user
+
+Here is to hoping the coming week turns out better than last one :)
