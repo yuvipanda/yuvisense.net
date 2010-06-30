@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Sat, 26 Jun 2010 03:43:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cheese GSoC Report - Week 4</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-4.html</link><description>&lt;p&gt;Fourth week of the Summer of Code was over a few days back, and this report is overdue :( I've not been able to code as much as I wanted to this week - due to various non-technical issues. Will compensate in the next week.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Thu, 01 Jul 2010 02:35:59 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cheese GSoC Report - Week 5</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-5.html</link><description>&lt;p&gt;Late report. But I did get quite a bit done!&lt;/p&gt;
+&lt;p&gt;Last week...&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Video Effects file format reader&lt;/li&gt;
+&lt;li&gt;Live Preview of Effects! (YAY!)&lt;/li&gt;
+&lt;li&gt;Effect files added&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Live Preview took most of my time. We bought down CPU usage from ~90% to a more manageable ~50%. Cleaned up code a bit (still needs more cleanup). It is rather very 'demoable', provided you gloss over the slowdowns. &lt;/p&gt;
+&lt;p&gt;Coming up next week would be...&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Even less CPU Usage! We're now even with current Cheese (which does not give you live previews). I want to bring this down even more.&lt;/li&gt;
+&lt;li&gt;Reduced latency for switching operations. Moving between effects/screens now has more than a second of latency. I should reduce this to much lesser than a second.&lt;/li&gt;
+&lt;li&gt;Code cleanup. Some of the C code is a mess - needs to be cleaned up much. &lt;/li&gt;
+&lt;li&gt;Error fixing. You can now crash it by looking at it at a 58 degree angle, during new moon days. Bugs like these will be fixed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cya in a week, with a very-usable Cheese!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-5.html</guid><pubDate>Thu, 01 Jul 2010 02:35:58 GMT</pubDate></item><item><title>Cheese GSoC Report - Week 4</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-4.html</link><description>&lt;p&gt;Fourth week of the Summer of Code was over a few days back, and this report is overdue :( I've not been able to code as much as I wanted to this week - due to various non-technical issues. Will compensate in the next week.&lt;/p&gt;
 &lt;p&gt;Last week...&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Countdown Animations (Thanks to _ke for cleanup!)&lt;/li&gt;
@@ -126,13 +141,4 @@
 &lt;h3&gt;What Now?&lt;/h3&gt;
 &lt;p&gt;Getting accepted doesn't mean shit. Actually finishing whatever I was supposed to within 3 months does mean &lt;em&gt;something&lt;/em&gt; - especially since I've taken on quite a bit of stuff to do (Move to new language + 2 new features). I'm quite the n00b - first time I'll be doing just &lt;em&gt;one&lt;/em&gt; thing over 3 months. Will be setting up a way of monitoring progress (probably via set milestones) soon enough. Will keep this place posted :)&lt;/p&gt;
 &lt;p&gt;Also, say Hi to my mentor &lt;a href="http://home.cs.tum.edu/~siegel/"&gt;daniel siegel&lt;/a&gt;. Him and fellow cheese-dev &lt;a href="http://blogs.gnome.org/fargiolas/"&gt;Flippio Argiolas&lt;/a&gt;, who were extremely helpful in getting my proposal whipped into shape (It's a gist, so you can see how it eveolved over time). &lt;/p&gt;
-&lt;p&gt;The Oscar acceptance style blog post will be turned in once the three months are over and the newer, improved Cheese is accepted as good enough :D&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/gsoc-2010-the-beginning.html</guid><pubDate>Sat, 01 May 2010 18:53:43 GMT</pubDate></item><item><title>Hacking more!</title><link>http://yuvi.in/blog/hacking-more.html</link><description>&lt;p&gt;Quoting from &lt;a href="http://en.wikipedia.org/wiki/Steven_Levy"&gt;Steven Levy&lt;/a&gt;'s &lt;a href="http://www.gutenberg.org/etext/729"&gt;Hackers&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[..] a project undertaken or a product built not solely to fulfill
-some constructive goal, but with some wild pleasure taken in mere
-involvement, was called a "hack."&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Building things for the fun of building them is hacking. And &lt;a href="http://db.glug-bom.org/lug-authors/philip/docs/hackers-not-crackers.html"&gt;hacking is not illegally breaking into computers&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;I like hacking. I want to be a real hacker. I can't call myself one yet.&lt;/p&gt;
-&lt;p&gt;I'm putting this up as a reminder to myself - about what is important and what isn't. Here is to hoping I remember to say &lt;em&gt;No&lt;/em&gt; more often. Here is to hoping that the next time I'm bored, I write something rather than idle on IRC. GSoC (a bigger post about it coming up) is helping - a lot. &lt;/p&gt;
-&lt;p&gt;I'll do a monthly 'things I've hacked on' post, and see how many things turn up on that :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/hacking-more.html</guid><pubDate>Wed, 21 Apr 2010 20:08:24 GMT</pubDate></item></channel></rss>
+&lt;p&gt;The Oscar acceptance style blog post will be turned in once the three months are over and the newer, improved Cheese is accepted as good enough :D&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/gsoc-2010-the-beginning.html</guid><pubDate>Sat, 01 May 2010 18:53:43 GMT</pubDate></item></channel></rss>

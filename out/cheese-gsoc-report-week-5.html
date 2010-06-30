@@ -3,7 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
     <title>
         
-Posts Tagged hislain
+Cheese GSoC Report - Week 5
  | YuviSense
     </title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -34,62 +34,51 @@ pageTracker._trackPageview();
             </div>
             <br />
             
-    
-        
+
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/code-highligting-plugin-for-hislain.html" rel="bookmark">Code Highligting Plugin for HiSlain</a>
+       <a href="http://yuvi.in/blog/cheese-gsoc-report-week-5.html" rel="bookmark">Cheese GSoC Report - Week 5</a>
    </h3>
    <div class="entry-content">
-       <p>I've been hacking 'round with <a href="http://github.com/yuvipanda/HiSlain">HiSlain</a>, and wrote a syntax highlighting plugin for it. Nothing fancy - just uses <a href="http://pygments.org">Pygments</a>, but the process of modifying the plugin architecture to support this has been an awesome ride. I'll probably open up a new GitHub project just for HiSlain Themes and Plugins.</p>
-<p>And since I've to test out Syntax Highlighting,</p>
-<div class="codehilite"><pre>print &quot;I kinda like Python :)&quot;</pre></div>
+       <p>Late report. But I did get quite a bit done!</p>
+<p>Last week...</p>
+<ol>
+<li>Video Effects file format reader</li>
+<li>Live Preview of Effects! (YAY!)</li>
+<li>Effect files added</li>
+</ol>
+<p>Live Preview took most of my time. We bought down CPU usage from ~90% to a more manageable ~50%. Cleaned up code a bit (still needs more cleanup). It is rather very 'demoable', provided you gloss over the slowdowns. </p>
+<p>Coming up next week would be...</p>
+<ol>
+<li>Even less CPU Usage! We're now even with current Cheese (which does not give you live previews). I want to bring this down even more.</li>
+<li>Reduced latency for switching operations. Moving between effects/screens now has more than a second of latency. I should reduce this to much lesser than a second.</li>
+<li>Code cleanup. Some of the C code is a mess - needs to be cleaned up much. </li>
+<li>Error fixing. You can now crash it by looking at it at a 58 degree angle, during new moon days. Bugs like these will be fixed.</li>
+</ol>
+<p>Cya in a week, with a very-usable Cheese!</p>
    </div>
    <div class="entry-meta">
         <div class='entry-tags'>
             Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
             
-            <a rel="tag" href="http://yuvi.in/blog/tag/hislain.html">hislain</a>
+            <a rel="tag" href="http://yuvi.in/blog/tag/gnome.html">gnome</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/report.html">report</a>
             
         </div>
         <div class='entry-date'>
-            Published at Friday 17 July '09 | <a href="http://yuvi.in/blog/code-highligting-plugin-for-hislain.html#disqus_thread">View Comments</a>
+            Published at Thursday 01 July '10 | <a href="http://yuvi.in/blog/cheese-gsoc-report-week-5.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>
 </div>
 
-    
-        
-<div class="post">
-    <div class="content">
-   <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/progress-on-hislain-1.html" rel="bookmark">Progress on HiSlain #1</a>
-   </h3>
-   <div class="entry-content">
-       <p>Small status update on <a href="http://github.com/yuvipanda/HiSlain">my blogging platform</a>'s progress.</p>
-<p>I've got the plugin infrastructure (mostly) in. Google Analytics Plugin and the RSS link plugin are working :) </p>
-<p>Next Step is to make <a href="http://disqus.com">DISQUS</a> a plugin too, and then I can start on porting themes!</p>
-   </div>
-   <div class="entry-meta">
-        <div class='entry-tags'>
-            Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
-            
-            <a rel="tag" href="http://yuvi.in/blog/tag/hislain.html">hislain</a>
-            
-        </div>
-        <div class='entry-date'>
-            Published at Wednesday 15 July '09 | <a href="http://yuvi.in/blog/progress-on-hislain-1.html#disqus_thread">View Comments</a>
-        </div>
-    </div>
-</div>
-</div>
-
-    
-<h4 style="margin:20px"><a href="http://yuvi.in/blog/archives.html">View complete archives</a></h4>
+<script type="text/javascript">
+    var disqus_developer = 1;
+</script>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/yuvisense/embed.js"></script><noscript><a href="http://yuvisense.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
             <br />
             <div class="footer">

@@ -1,0 +1,23 @@
+Cheese GSoC Report - Week 5
+permalink: cheese-gsoc-report-week-5.html
+published: 2010-07-01T02:35:58.522776
+tags: gsoc, gnome, report
+
+Late report. But I did get quite a bit done!
+
+Last week...
+
+1. Video Effects file format reader
+2. Live Preview of Effects! (YAY!)
+3. Effect files added
+
+Live Preview took most of my time. We bought down CPU usage from ~90% to a more manageable ~50%. Cleaned up code a bit (still needs more cleanup). It is rather very 'demoable', provided you gloss over the slowdowns. 
+
+Coming up next week would be...
+
+1. Even less CPU Usage! We're now even with current Cheese (which does not give you live previews). I want to bring this down even more.
+2. Reduced latency for switching operations. Moving between effects/screens now has more than a second of latency. I should reduce this to much lesser than a second.
+3. Code cleanup. Some of the C code is a mess - needs to be cleaned up much. 
+4. Error fixing. You can now crash it by looking at it at a 58 degree angle, during new moon days. Bugs like these will be fixed.
+
+Cya in a week, with a very-usable Cheese!
