@@ -1,0 +1,34 @@
+Cheese GSoC Report - Week 8
+permalink: cheese-gsoc-report-week-8.html
+published: 2010-07-22T00:37:31.588593
+tags: gsoc, gnome, report
+
+This week on Cheese....
+
+WE MADE A RELEASE! :)
+
+http://ftp.gnome.org/pub/GNOME/sources/cheese/2.31/
+
+Cheese 2.31.1 is out. It's a dev release. Does not have zarro boogs.
+But it is a release!
+
+This week, we
+
+1. Fixed several perf bugs.
+2. Fixed some weird preferences dialog bugs
+3. Filed (and eventually had fixed) a bug in GStreamer.
+4. Fixed a regression
+5. Beautified the UI a bit (text name overlay of effects, etc)
+6. Assorted administrative work to prepare for release (Copyright
+updating, merging back into master, etc)
+
+I also passed my mid terms :)
+
+Next week...
+
+1. Remove dependency on Mx Toolkit (it is not a blessed dependency,
+and i'm not using large parts of it anyway)
+2. Performance improvements, especially at startup time. It is taking
+*waaay* too long .
+3. Fix problems in video mode.
+4. Make the TODO list shorter.
