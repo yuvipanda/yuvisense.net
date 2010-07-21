@@ -1,7 +1,7 @@
 Cheese 2.31.1 Released
 permalink: cheese-2-31-1-released.html
-tags: gnome, cheese, code, gsoc
 published: 2010-07-22T02:20:12.787052
+tags: gnome, cheese, code, gsoc
 
 If you had read my [Cheese GSoC proposal][6], it would've stressed on one major point - make Cheese sexy.
 
@@ -20,6 +20,8 @@ So, what's all in this release?
 3. User created effects. Effects are no longer hardcoded. A simple 4 line text file and enthusiasm for reading documentation is all that is required to  create your own effect. The effects are based on GStreamer, and are very flexible - you can create something as simple as monochrome + hue, or something as complex as face detection + extra limb addition to specific people :P
 
 4. Live Streaming - biggie. All effects are arranged in grids of 3x3 in multiple pages that you can swipe through. Simply clicking one will activate it pretty much instantaneously. No more 'select effect, apply, no-it-sucks, let's go back and do it again' games :) 
+
+<a href="http://dl.dropbox.com/u/8768784/cheese-midterm.ogv"><img src="http://dl.dropbox.com/u/8768784/cheese-midterm.png" /></a>
 
 I made a [quick screencast][1] to show the new Live preview stuff to those of you too lazy to actually get the source and compile. And the subject is a pink+green teddy bear sitting on my white netbook. (And the weird stuff that turns up after I exit fullscreen is a bug in [RecordMyDesktop][4] - and is an incentive for you to actually [get the source][2] and check it out :P)
 
