@@ -1,9 +1,9 @@
 Cheese 2.31.1 Released
 permalink: cheese-2-31-1-released.html
-published: 2010-07-22T02:20:12.787052
 tags: gnome, cheese, code, gsoc
+published: 2010-07-22T02:20:12.787052
 
-If you had read my Cheese GSoC proposal, it would've stressed on one major point - make Cheese sexy.
+If you had read my [Cheese GSoC proposal][6], it would've stressed on one major point - make Cheese sexy.
 
 Two days ago, one of my classmates spent 5 minutes on the bus using Cheese and trying out different effects (and poses!). Today, my brother spent 20 minutes trying to get the perfect combination of style and vagueness for his Facebook profile picture - using Cheese. He then asked me to create an account for him in Ubuntu (he was an exclusively Win7 user till then) before leaving.
 
@@ -34,3 +34,4 @@ A lot of late night hackery (mostly because my college takes up 10 hours of 'reg
 [3]: https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22cheese%22
 [4]: http://recordmydesktop.sourceforge.net/about.php
 [5]: http://live.gnome.org/Vala
+[6]: http://yuvi.in/blog/gsoc-2010-proposal.html

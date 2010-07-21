@@ -39,10 +39,39 @@ pageTracker._trackPageview();
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/my-gsoc-2010-proposal.html" rel="bookmark">My GSoC 2010 Proposal</a>
+   </h3>
+   <div class="entry-content">
+       <p>I used <a href="http://gist.github.com">gist</a> to publish <a href="http://gist.github.com/356202">my GSoC proposal</a>. Diffs, easy to show off, and Markdown support - made gist perfect for me to make modifications and get feedback easily.</p>
+<p>It is the first 'real' document I've written - it actually had a tangible effect.</p>
+<p>Now that I don't need to make any modifications, I've <a href="http://yuvi.in/blog/gsoc-2010-proposal.html">moved it to my site</a>.</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/cheese.html">cheese</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Thursday 22 July '10 | <a href="http://yuvi.in/blog/my-gsoc-2010-proposal.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+        
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
        <a href="http://yuvi.in/blog/cheese-2-31-1-released.html" rel="bookmark">Cheese 2.31.1 Released</a>
    </h3>
    <div class="entry-content">
-       <p>If you had read my Cheese GSoC proposal, it would've stressed on one major point - make Cheese sexy.</p>
+       <p>If you had read my <a href="http://yuvi.in/blog/gsoc-2010-proposal.html">Cheese GSoC proposal</a>, it would've stressed on one major point - make Cheese sexy.</p>
 <p>Two days ago, one of my classmates spent 5 minutes on the bus using Cheese and trying out different effects (and poses!). Today, my brother spent 20 minutes trying to get the perfect combination of style and vagueness for his Facebook profile picture - using Cheese. He then asked me to create an account for him in Ubuntu (he was an exclusively Win7 user till then) before leaving.</p>
 <p>I'm still not where I want to be (the girls haven't gone gaga over it...yet!), but I know very well that I am on the right path.</p>
 <p>And a major milestone in that path is the release of Cheese 2.31.1. The 'release' means that the code is now stable enough to be actually shown off. The major features (rewrite in Vala, use Clutter, user defined Effects and most importantly, Live Previews) are in working condition. We are no longer walking through a minefield of segfaults. You can build it and show it off. When something breaks and <a href="http://ftp.gnome.org/pub/GNOME/sources/cheese/2.31/">you tell us</a>, we'll most probably not reply with 'yeah, we know that. We'll fix it when we get to it'. The road to Cheese 3.0 has begun.</p>
@@ -425,52 +454,6 @@ and i'm not using large parts of it anyway)</li>
         </div>
         <div class='entry-date'>
             Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/cheese-gsoc-report-week-1.html#disqus_thread">View Comments</a>
-        </div>
-    </div>
-</div>
-</div>
-
-    
-        
-<div class="post">
-    <div class="content">
-   <h3 class="entry-title">
-       <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html" rel="bookmark">Vala, GTKBuilder and Autoconnecting Signal Handlers</a>
-   </h3>
-   <div class="entry-content">
-       <p><strong>Note</strong>: I'm not an expert on Vala, GTK+, or anything else for that matter. If I am off base someplace, comment.</p>
-<p>I spent quite a some time today trying to get GTKBuilder to automagically connect all my signals to their handlers. I tripped up at a few places, and so recording them here for posterity.</p>
-<ol>
-<li>
-<p>If you are using instance methods (like most of us are), you've to decorate your handler function with the attribute <code>[CCode (instance_pos=-1)]</code>. This makes sure that the function is passed the <code>this</code> pointer as last argument, rather than first. You've to do this because <code>Builder.connect_signals</code> passes the instance as last parameter (<code>user_data</code>), and by aligning your <code>this</code> pointer with <code>user_data</code>, you make sure the correct instance is called.</p>
-</li>
-<li>
-<p>Make sure your handler function signature matches what is expected. Ignore the <code>user_data</code> parameter of most signals - it is used internally by <code>Builder.connect_signals</code> (see above point).</p>
-</li>
-<li>
-<p>Make sure you pass <code>--pkg gmodule-2.0</code> to your <code>valac</code>. If you're using Autotools, this means you pass it to <code>VALAFLAGS</code>.</p>
-</li>
-<li>
-<p>sure your C compiler is called with <code>-dynamic-export</code>. I'm told this enabled support for <code>dlopen</code> in the binary produced.</p>
-</li>
-<li>
-<p>Mangle your names properly. <code>Cheese.MainWindow.on_quit()</code> becomes <code>cheese_main_window_on_quit</code> on C, and that is what GTKBuilder expects. If you are not sure how your function name is mangled by <code>valac</code>, checkout the generated <code>.c</code> file.</p>
-</li>
-</ol>
-<p>If you do all these 5 things right and you're still having trouble, turn up on #vala at irc.gimp.net and ask the helpful folks there :)</p>
-   </div>
-   <div class="entry-meta">
-        <div class='entry-tags'>
-            Tags: 
-            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
-            
-            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
-            
-            <a rel="tag" href="http://yuvi.in/blog/tag/vala.html">vala</a>
-            
-        </div>
-        <div class='entry-date'>
-            Published at Sunday 30 May '10 | <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html#disqus_thread">View Comments</a>
         </div>
     </div>
 </div>
