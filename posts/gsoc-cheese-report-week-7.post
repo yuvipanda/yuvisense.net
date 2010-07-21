@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-tags: gsoc, gnome, report
+Cheese GSoC Report - Week 7
 permalink: cheese-gsoc-report-week-7.html
 published: 2010-07-12T18:26:54.568223
+tags: gsoc, gnome, report
 
 This week on Cheese....
 
@@ -16,6 +16,4 @@ All of last week's goals were met, except the code cleanup. It will probably hav
 
 As I type this, there are 6 blockers before we can make a release. Will make a post when we do a release, hopefully with a screencast too!
 
-Next week is kinda unpredictable - I'll douse fires as they arise in the code (reported by people who hopefully test the release), and also work on reducing the length of items in the TODO.</pre>
-		</body>
-	</html>
+Next week is kinda unpredictable - I'll douse fires as they arise in the code (reported by people who hopefully test the release), and also work on reducing the length of items in the TODO.
