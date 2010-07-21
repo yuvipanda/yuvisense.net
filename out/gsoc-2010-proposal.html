@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+    <title>
+        
+GSoC 2010 Proposal
+ | YuviSense
+    </title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="http://yuvi.in/blog/static/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://yuvi.in/blog/static/codehilite.css" />
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-970897-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://feeds.feedburner.com/Yuvisense/" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="/">YuviSense</a> <span>Codin Kid</span></h1>
+            <div class="stripcontainer">
+                <div class="strip" id="projects">                    
+                    <strong>An 18 year old guy from Chennai, India who codes, photographs & has fun</strong> <a href="/blog/about-me.html"><small>More...</small></a>
+                </div>
+            </div>
+            <br />
+            
+
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/gsoc-2010-proposal.html" rel="bookmark">GSoC 2010 Proposal</a>
+   </h3>
+   <div class="entry-content">
+       <h1>Spicing up Cheese - Sexier Form and More Function</h1>
+<h2>Goals of the Project</h2>
+<p>The aim of this project is to make Cheese sexier than it is right now. <a href="http://www.jwz.org/doc/groupware.html">"It should help its users get laid"</a>. This can be accomplished with a slicker UI and a few more features.</p>
+<h2>Motivation</h2>
+<p>While Cheese is an easy to use webcam application, it lacks a bit in the <em>coolness</em> department. There are only a limited set of effects, and no live preview. You can't make <em>cool</em> pictures without having to resort to GIMP or Photoshop. I'd like Cheese to be a one-stop cool picture production factory - Take a shot, picking one of several effects shown live to you, and directly post to wherever the user would like to show off (flickr, Facebook, etc). </p>
+<h2>Deliverables</h2>
+<ol>
+<li>Entire UI redone in Vala</li>
+<li>Vala bindings for <code>clutter-gst</code></li>
+<li>Live Preview for effects</li>
+<li>Distributable user created effects.</li>
+</ol>
+<h3>Gradual Move to Vala/clutter</h3>
+<p>All of Cheese is written in C/gtk+ now. Moving gradually to Vala/clutter would have the advantage of having a higher level language to write the glue code, and a much slicker UI thanks to clutter. </p>
+<h4>Moving the UI Chrome to Vala/GTK+</h4>
+<p>The UI Chrome should obviously remain in GTK+ - so we could reuse the <code>cheese.ui</code> definitions, and convert everything except the <strong>viewport</strong> to use Vala. When this is done, it will be a 'skeleton' - a frame that does absolutely nothing. It would have a big black space where the Viewport is supposed to be - but everything else would be the same as cheese today. </p>
+<h4>Moving the Viewport to Vala/clutter</h4>
+<p>The Viewport will be moved off GTK+ and to clutter. Video preview will be shown using the Video Sink GST Element from <code>clutter-gst</code>. The viewport will be embedded in the GTK+ application, and everything will be done in Vala. Vala bindings for <code>clutter-gst</code> do not exist yet, and will need to be built.</p>
+<h4>Vala bindings for rest of the code</h4>
+<p>The libcheese functionality (mainly device detection &amp; camera control) - would remain in C, and be used by the UI bits with Vala bindings. Re-use as much of the non-UI code as possible.</p>
+<h3>Live Preview</h3>
+<p>The GStreamer pipeline would be forked after the Camera (+ downscale), passed through separately to each of the currently selected set of effects, and then sunk independently to different sinks (from the <code>clutter-gst</code> library), shown together on the viewport. When the user finally picks an effect, the original pipeline (camera -&gt; filters -&gt; viewport) will be restored with full-resolution video. The current feature of selecting multiple effects to combine them would also be preserved. We can arrange the sinks in multiple ways on the screen, giving us our <em>slick</em> UI (with Transitions, Shadows, etc). Implementation would be in Vala. </p>
+<p><a href="http://yuvi.in/blog/media/cheese-livepreview.png">A visualization of how this pipeline splitting would work</a></p>
+<p><strong>Note about Hardware Acceleration</strong>: GPU based Hardware Acceleration for effects is out of the scope of this project.</p>
+<h3>Pluggable Effects</h3>
+<p>There are only a fixed number of effects to choose from in Cheese. Each effect is represented as a sequence of GStreamer Filters, so it should be easy to add a simple plugin mechanism that lets users download packs of new effects and use them. Users can pick between multiple effects <em>packs</em> in the UI. The inbuilt effects will also be rewritten as effect packs.</p>
+<h4>Effects File Format</h4>
+<p>The effects files (proposed extension <code>.cheese-effect</code>) will be simple <code>ini</code> files (similar to the <code>.desktop</code> format), with metadata about the effect (Name, Author Name/URL, License, External Dependencies, Colorspace, etc)  and the <strong>effects string</strong> - a sequence of GStreamer Filters seperated by <code>!</code>. This format for specifying the pipeline is universally used across GStreamer, so should be familiar to anyone producing effects.  An effect pack is just a collection of <code>.cheese-effect</code> files. </p>
+<h4>Colorspace Handling</h4>
+<p>If we have enough time left, we could do automatic colorspace conversion for each GSTreamer filter in that effects string. Otherwise, only the input/output colorspaces for the effect would be specified by the effect author in the <code>.cheese-effect</code> file and Cheese would make sure that the effect recieved input in the proper colorspace. All internal colorspace conversion (if the effect mixes filter that use different colorspaces) would have to be handled by the effect author inserting appropriate conversion filters into the effects string.</p>
+<h4>External GST Plugins</h4>
+<p>All GST Filters specified in the <code>.cheese-effect</code> files are assumed to be installed and working on the system. If external, specific-to-the-effect GST Plugins are needed, it is left to the effect author to provide an installer for them. </p>
+<h4>Effect Management/Installation</h4>
+<p>A new tab will be added to the preferences window to manage (install/remove/disable) effects/packs. </p>
+<h4>Crashing</h4>
+<p>Before activating an effect, it is <em>tested</em> - to ensure it doesn't crash immedieatly (bugs), or have something stupid (like a sink in the middle of the pipeline description). If it doesn't work as expected, it is disabled (grayed out), with help on why it was disabled.</p>
+<h2>Timeline</h2>
+<p>Following is a breakup of the project goals. Estimated time for each target is in braces.</p>
+<ul>
+<li><strong>Upto May 24</strong>: Write up demo applications using libclutter. Gain more indepth knowledge of the GStreamer Pipeline. Do UI mockups.</li>
+<li><strong>Target 1 (2 weeks)</strong>: Rewrite UI Chrome (Thumb Display, Menus, Preferences Window) with Vala. </li>
+<li><strong>Target 2 (2 weeks)</strong>: Replace the GTK based Video Viewfinder with a Clutter Actor.</li>
+<li><strong>Target 3 (2 weeks)</strong>: Implement Live Preview.</li>
+<li><strong>Code Cleanup Week (1 week)</strong>: Clean up code wherever needed. Write documentation.</li>
+<li><strong>Target 4 (1 week)</strong>: Implement Pluggable Effects.</li>
+<li><strong>Target 5 (1 week)</strong>: Write a few effects plugins. Write documentation and samples for writing Effects Plugins.</li>
+<li><strong>Target 6 (1 week)</strong>: Implement UI for Effect/Pack Management.</li>
+<li><strong>Code Cleanup Weeks (2 week)</strong>: Fix the mess of the last 10 weeks.</li>
+</ul>
+<h2>Showable at Mid Term</h2>
+<p>A mostly Vala code base with a working <code>clutter-gst</code> based Live Preview would be the mid-term goal.</p>
+<h2>About Me</h2>
+<p>My Name is Yuvaraj Pandian, and I'm currently studying for a B.E in Computer Science at KCG College of Technology, at Chennai, India. </p>
+<p>I've been programming in Python for the past two years, and in C#/.NET for two years before that. I have a working knowledge of C, and have contributed to a few patches in GNOME so far. I have around 9 years of programming experience, starting with Turbo C, moving to VB6, then .NET and Python, flirting with numerous languages on the way. I use git for version control and host all my projects <a href="htp://github.com/yuivpanda">at GitHub</a>. I also love photography and spend quite a bit of time editing photos for friends. I helped organize <a href="http://proto.in">Proto.in</a> and <a href="http://barcampchennai.org">BarcampChennai</a>.</p>
+<h2>Code Portfolio</h2>
+<p>I built and maintain <a href="http://busroutes.in">Busroutes.in</a>, a local Bus Route search engine for my city. I blog at <a href="http://yuvi.in/blog">http://yuvi.in/blog</a>, with a custom built <a href="http://github.com/yuvipanda/hislain">Blogging Engine</a>. I also have several one off code projects, all put up on my <a href="htp://github.com/yuivpanda">GitHub Page</a>.</p>
+<p>I've contributed three patches (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=592081">#592081</a>, <a href="https://bugzilla.gnome.org/show_bug.cgi?id=597226">#597226</a> and <a href="https://bugzilla.gnome.org/show_bug.cgi?id=615002">#615002</a>) to Cheese so far, and helped write one for gnome-games at the HackFest at IIT Madras. </p>
+<h2>Contact</h2>
+<p>Name: Yuvaraj Pandian T
+Mail: me@yuvi.in
+IRC: yuvipanda on <code>freenode</code> and <code>irc.gnome.org</code></p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Thursday 22 July '10 | <a href="http://yuvi.in/blog/gsoc-2010-proposal.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+    var disqus_developer = 1;
+</script>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/yuvisense/embed.js"></script><noscript><a href="http://yuvisense.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            <br />
+            <div class="footer">
+                <div style="width:200px;">
+                    <p><strong>About Me</strong></p>
+                    <p>I am Yuvi. I am 18. I live in Chennai, India. I study in an (IMO) awesome college. I have fun. I code. I photograph. I blog. I text. I organize stuff for my college. I just mess around a lot. I have fun :)</p>
+                </div>
+                <div>
+                    <p><strong>My Stuff</strong></p>
+                    <ul style="list-style:none">
+                        <li><a href="http://github.com/yuvipanda">My Code</a></li>
+                        <li><a href="http://flickr.com/photos/yuvi">My Photographs</a></li>
+                        <li><small>...will add more here</small></li>
+                    </ul>
+                </div>               
+                <div>
+                    <p><strong>Me</strong></p>
+                    <ul style="list-style:none;">
+                        <li>
+ <img src="http://www.google.com/s2/favicons?domain=flickr.com" />                           <a href="http://flickr.com/photos/yuvi">Flickr</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=twitter.com" /><a href="http://twitter.com/yuvipanda">Twitter</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=friendfeed.com" /><a href="http://friendfeed.com/yuvipanda">FriendFeed</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=github.com" /><a href="http://github.com/yuvipanda">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="copyright">
+                <p>
+                YuviSense powered by HiSlain using <a href="http://theojones.net/tj-clean-wordpress-theme">TJ Clean Theme</a> ported from Wordpress
+                </p>
+            </div>
+        </div>        
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/yuvisense/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
+
+</body>
+</html>

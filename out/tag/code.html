@@ -39,6 +39,57 @@ pageTracker._trackPageview();
 <div class="post">
     <div class="content">
    <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/cheese-2-31-1-released.html" rel="bookmark">Cheese 2.31.1 Released</a>
+   </h3>
+   <div class="entry-content">
+       <p>If you had read my Cheese GSoC proposal, it would've stressed on one major point - make Cheese sexy.</p>
+<p>Two days ago, one of my classmates spent 5 minutes on the bus using Cheese and trying out different effects (and poses!). Today, my brother spent 20 minutes trying to get the perfect combination of style and vagueness for his Facebook profile picture - using Cheese. He then asked me to create an account for him in Ubuntu (he was an exclusively Win7 user till then) before leaving.</p>
+<p>I'm still not where I want to be (the girls haven't gone gaga over it...yet!), but I know very well that I am on the right path.</p>
+<p>And a major milestone in that path is the release of Cheese 2.31.1. The 'release' means that the code is now stable enough to be actually shown off. The major features (rewrite in Vala, use Clutter, user defined Effects and most importantly, Live Previews) are in working condition. We are no longer walking through a minefield of segfaults. You can build it and show it off. When something breaks and <a href="http://ftp.gnome.org/pub/GNOME/sources/cheese/2.31/">you tell us</a>, we'll most probably not reply with 'yeah, we know that. We'll fix it when we get to it'. The road to Cheese 3.0 has begun.</p>
+<p>So, what's all in this release?</p>
+<ol>
+<li>
+<p>Rewrite of the UI code. We removed the entire old src/ folder, and rewrote everything from scratch. Using <a href="http://live.gnome.org/Vala">Vala</a>. Why? Because ~7000 lines of C code is now ~1500 lines of Vala code. And the Vala code has more features (Live preview, for one!). The Vala compiler is pretty mature - only one 'real' bug so far (rest have been mostly binding bugs, fixed with single line of code changes). And #vala has been incredibly helpful too! And we are re-using most of the 'backend' code (Camera detection, pipeline linking, etc) - it is still in C, and writing Vala bindings was incredibly simple.</p>
+</li>
+<li>
+<p>Move from Gtk to Clutter for display. Means I can do stuff like overlay semi-transparent text on top of the effects. Or have animated page transitions. Or (in the future), use OpenGL effects without having to do an extra to-fro copy from memory. Have drop shadows for everything. Make the effects tilt and rotate around when hovered over. Etc, etc, etc. Clutter is the major contributor to the 'sexy' part.</p>
+</li>
+<li>
+<p>User created effects. Effects are no longer hardcoded. A simple 4 line text file and enthusiasm for reading documentation is all that is required to  create your own effect. The effects are based on GStreamer, and are very flexible - you can create something as simple as monochrome + hue, or something as complex as face detection + extra limb addition to specific people :P</p>
+</li>
+<li>
+<p>Live Streaming - biggie. All effects are arranged in grids of 3x3 in multiple pages that you can swipe through. Simply clicking one will activate it pretty much instantaneously. No more 'select effect, apply, no-it-sucks, let's go back and do it again' games :) </p>
+</li>
+</ol>
+<p>I made a <a href="http://dl.dropbox.com/u/8768784/cheese-midterm.ogv">quick screencast</a> to show the new Live preview stuff to those of you too lazy to actually get the source and compile. And the subject is a pink+green teddy bear sitting on my white netbook. (And the weird stuff that turns up after I exit fullscreen is a bug in <a href="http://recordmydesktop.sourceforge.net/about.php">RecordMyDesktop</a> - and is an incentive for you to actually <a href="http://ftp.gnome.org/pub/GNOME/sources/cheese/2.31/">get the source</a> and check it out :P)</p>
+<p>These are the four <em>major</em> features that are new. All the other parts of previous Cheese UI have also been implemented (preferences, thumbnail viewer, fullscreen, wide mode, device detection, etc.)</p>
+<p>As for the next release - keep looking out for it, it will land soon! It will primarily be a bug fix and code cleanup release - fixing crashes, UI inconsistencies and making sure everything works as intended.</p>
+<p>A lot of late night hackery (mostly because my college takes up 10 hours of 'regular' time) has gone into this release - so check it out <a href="http://ftp.gnome.org/pub/GNOME/sources/cheese/2.31/">here</a> and tell us what you think. Especially about the parts that suck. Especially useful would be if you can get someone non-technical to sit in front of Cheese, observe where all they fail (and succeed) and then report your observations back to us.</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/gnome.html">gnome</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/cheese.html">cheese</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/code.html">code</a>
+            
+            <a rel="tag" href="http://yuvi.in/blog/tag/gsoc.html">gsoc</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Thursday 22 July '10 | <a href="http://yuvi.in/blog/cheese-2-31-1-released.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+        
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
        <a href="http://yuvi.in/blog/vala-gtkbuilder-and-autoconnecting-signal-handlers.html" rel="bookmark">Vala, GTKBuilder and Autoconnecting Signal Handlers</a>
    </h3>
    <div class="entry-content">
