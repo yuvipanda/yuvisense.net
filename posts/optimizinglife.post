@@ -1,7 +1,7 @@
 Optimizing Life
 permalink: optimizing-life.html
-published: 2009-06-28T10:47:18.398851
 tags: geekery, life
+published: 2009-06-28T10:47:18.398851
 
 [Geeks Optimize Life][1]. True that. I do optimize the short route from when I get down from my college bus to my home, and me and [Sudar][2] did have an argument about optimization when we took the train together one day. My argument was that the distance you are going to walk is constant anyway (you either walk it at the station you are boarding the train, or where you are getting down), so moving to the extreme end of the train is pointless. He pointed out that if you walk when you are at the boarding station, you are using your _idle time_ - time spent waiting for train to arrive (kinda like how the CPU can do stuff when waiting for IO to complete). However, time after you reach your destination is _not_ idle time - you are not waiting for anything, so you should minimize the distance you have to walk before you can get out of the station and continue to whatever you have to do next. He was right, so I stfu :)
 
