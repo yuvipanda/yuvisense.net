@@ -1,0 +1,17 @@
+The End of GSoC 2010
+permalink: the-end-of-gsoc-2010.html
+tags: gsoc
+published: 2010-09-02T23:42:20.755588
+
+Google Summer of Code ended a while back. Me (and most on #gsoc) agreed on one thing - WHERE DID THOSE 3 MONTHS GO? Amazing time it was - thanks to [_ke][1] (Who is frolicking somewhere in Thailand right now), [fargiolas][2] and the rest of the GNOME guys (#clutter, #gstreamer and #gtk+ yay!) for making it awesome. #hackers-india was a great venting place too :)
+
+[Cheese][3]'s [master][master] needs quite a bit of work before it can be included in [GNOME 3.0][4] - and I plan on doing most of that. It's fun - demoing it at college is a huge hit. Looks like eventually, my [original goal][5] for Cheese might be met ;)
+
+Right now, I'm decompressing, and basically not doing anything at all - except getting a bike, and sorting out some personal issues. Should be back coding (and blogging) soon. Have a huge post on GSoC experience coming up.
+
+[1]: http://www.dgsiegel.net/
+[2]: http://blogs.gnome.org/fargiolas/
+[3]: http://projects.gnome.org/cheese/
+[4]: http://live.gnome.org/ThreePointZero
+[5]: http://yuvi.in/blog/gsoc-2010-proposal.html
+[master]: http://git.gnome.org/browse/cheese

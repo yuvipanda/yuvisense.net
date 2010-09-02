@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Sat, 07 Aug 2010 16:08:20 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Work Life Balance</title><link>http://yuvi.in/blog/work-life-balance.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Thu, 02 Sep 2010 23:45:08 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The End of GSoC 2010</title><link>http://yuvi.in/blog/the-end-of-gsoc-2010.html</link><description>&lt;p&gt;Google Summer of Code ended a while back. Me (and most on #gsoc) agreed on one thing - WHERE DID THOSE 3 MONTHS GO? Amazing time it was - thanks to &lt;a href="http://www.dgsiegel.net/"&gt;_ke&lt;/a&gt; (Who is frolicking somewhere in Thailand right now), &lt;a href="http://blogs.gnome.org/fargiolas/"&gt;fargiolas&lt;/a&gt; and the rest of the GNOME guys (#clutter, #gstreamer and #gtk+ yay!) for making it awesome. #hackers-india was a great venting place too :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projects.gnome.org/cheese/"&gt;Cheese&lt;/a&gt;'s &lt;a href="http://git.gnome.org/browse/cheese"&gt;master&lt;/a&gt; needs quite a bit of work before it can be included in &lt;a href="http://live.gnome.org/ThreePointZero"&gt;GNOME 3.0&lt;/a&gt; - and I plan on doing most of that. It's fun - demoing it at college is a huge hit. Looks like eventually, my &lt;a href="http://yuvi.in/blog/gsoc-2010-proposal.html"&gt;original goal&lt;/a&gt; for Cheese might be met ;)&lt;/p&gt;
+&lt;p&gt;Right now, I'm decompressing, and basically not doing anything at all - except getting a bike, and sorting out some personal issues. Should be back coding (and blogging) soon. Have a huge post on GSoC experience coming up.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/the-end-of-gsoc-2010.html</guid><pubDate>Thu, 02 Sep 2010 23:42:20 GMT</pubDate></item><item><title>Work Life Balance</title><link>http://yuvi.in/blog/work-life-balance.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;aeoo 221 points222 points223 points 1 day ago* [-]&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;recognize that work is something you do to live and isn't your whole life&lt;/p&gt;
@@ -108,28 +110,4 @@ and i'm not using large parts of it anyway)&lt;/li&gt;
 &lt;li&gt;Basic Effects application to the currently playing pipeline.&lt;/li&gt;
 &lt;li&gt;Mockups on best weay to present effects UI to user&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Here is to hoping the coming week turns out better than last one :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-4.html</guid><pubDate>Sun, 20 Jun 2010 04:24:14 GMT</pubDate></item><item><title>Cheese GSoC Report - Week 3</title><link>http://yuvi.in/blog/cheese-gsoc-report-week-3.html</link><description>&lt;p&gt;Third week of the Summer of Code is over! And during this week....&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Successfully wrapped up the core cheese functionality (&lt;code&gt;libcheese&lt;/code&gt;) with a vala wrapper&lt;/li&gt;
-&lt;li&gt;Made Photo Mode work&lt;/li&gt;
-&lt;li&gt;Made Video Mode work&lt;/li&gt;
-&lt;li&gt;Made Burst Mode work&lt;/li&gt;
-&lt;li&gt;Made cheese single instance using &lt;code&gt;libunique&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Started work on cleaning up GConf code.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In &lt;a href="http://yuvi.in/blog/cheese-gsoc-report-week-2.html"&gt;last week's report&lt;/a&gt;, I mentioned that I didn't quite like my pace of work. It is still the same (approx. 3 hours a day on average, excluding overhead) - but I've come to accept that it is okay. No more bitching about it, as long as I'm meeting my goals.&lt;/p&gt;
-&lt;p&gt;Last week's predictions were to complete libcheese wrapping, photo mode, video mode and burst mode. Set goals accomplished with ample time to spare - time that was spent trying to get countdown animations to work (still haven't managed), and make cheese single instance. I under-estimated last week - should improve accuracy.&lt;/p&gt;
-&lt;p&gt;By next week, I hope to have accomplished...&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Fully functional preferences dialog box&lt;/li&gt;
-&lt;li&gt;Countdown animations&lt;/li&gt;
-&lt;li&gt;Full GConf integration (i.e. remember all your preferences)&lt;/li&gt;
-&lt;li&gt;Full blown keybindings (Basically &lt;code&gt;&amp;lt;Esc&amp;gt;&lt;/code&gt; to cancel, since the others are already implemented)&lt;/li&gt;
-&lt;li&gt;Trash/Delete implementation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;It would have everything Cheese 2.30.1 has, except for Effects.&lt;/p&gt;
-&lt;p&gt;And what did I learn this week?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;RTFM. Again. And again. THEN ask on IRC. &lt;/li&gt;
-&lt;li&gt;How to use gdb. I've only cursorily used it before - but digging into it deeper now (thank you, segfault!)&lt;/li&gt;
-&lt;/ol&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-3.html</guid><pubDate>Sun, 13 Jun 2010 04:24:14 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Here is to hoping the coming week turns out better than last one :)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/cheese-gsoc-report-week-4.html</guid><pubDate>Sun, 20 Jun 2010 04:24:14 GMT</pubDate></item></channel></rss>
