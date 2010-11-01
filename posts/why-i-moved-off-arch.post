@@ -1,0 +1,15 @@
+Why I moved off Arch (on my Netbook)
+permalink: why-i-moved-off-arch-on-my-netbook.html
+published: 2010-11-01T17:24:25.979905
+tags: arch, linux
+
+I posted a while back that I [moved][1] to Arch (from Ubuntu) on my Netbook. That was almost two months back. My Arch experiment, sadly, didn't work out for long. I moved back to Ubuntu within a couple of week's time. Why?
+
+1. Lack of binary packages. I had to build quite a few packages from source because there were no binary packages available. The tilting point was when I figured there were no binary packges for mit-scheme! Ofcourse, I could've just used AUR and built them from source, but...
+2. Building from source on my Netbook sucks. ATOM + Slow Hard Drive -> I'm nuts waiting for stuff to compile. The AUR is basically useless to me.
+
+Hello Ubuntu! (I also hate Unity 'coz it takes up precious screen space - might move to something else soon)
+
+TL;DR: Arch doesn't have enough binary packages and building on a netbook sucks
+
+[1]: http://yuvi.in/blog/running-archlinux.html
