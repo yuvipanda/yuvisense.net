@@ -30,9 +30,10 @@
   ./posts/shirtsize.post: dcb1d8d2ea2ff49e0cc8a5b03c364e4e, ./posts/the-auto-quote-generators.post: 359d60ef7487310212728311f3fde526,
   ./posts/the-python-workshop.post: b8b3d02f36f7b387c606cada3a551ed5, ./posts/thingsineedtimefor.post: c651240af9a6b16a1d58e1222fe6a35a,
   ./posts/time-in-a-country-of-1-billion-people.post: e17b8a842fb7487d9646ac23b23e3114,
-  ./posts/treat-of-a-lifetime-novelrace.post: 6c33bfe49d589e3079b3e537e7efc549, ./posts/tshirt-i-want.post: 7d9861d45302afafe144958eb16107d2,
-  ./posts/univerity-of-reddit-sicp-reading-group.post: b81bd58c70fb6221645f8cec789dbdb8,
+  ./posts/treat-of-a-lifetime-novelrace.post: 6c33bfe49d589e3079b3e537e7efc549, ./posts/trip-to-kerala.post: 4962e670af63c6a3b35486cd14c5dff8,
+  ./posts/tshirt-i-want.post: 7d9861d45302afafe144958eb16107d2, ./posts/univerity-of-reddit-sicp-reading-group.post: b81bd58c70fb6221645f8cec789dbdb8,
   ./posts/vala-gtkbuilder-autoconnect-signals.post: d39dc4c2c7f538e13cab941543f89a54,
   ./posts/webfaction-review.post: 7bbc9a1c064e24be1597349fee8d10e0, ./posts/what-i-lack.post: 4c30803bab2621e2bd824c601df55ae7,
   ./posts/why-i-got-rid-of-my-fork-of-waffle.post: ecec9059568f76a33f4fdd25b8d78566,
-  ./posts/work-life-balance.post: 84d191f9caabec85d2de574b774946fd, ./posts/yahoo-hackday-2010.post: 1441ead46d6c502544ecbf7fa5ed0c82}
+  ./posts/why-i-moved-off-arch.post: a968b7c039fa47d86da60668933b35e8, ./posts/work-life-balance.post: 84d191f9caabec85d2de574b774946fd,
+  ./posts/yahoo-hackday-2010.post: 1441ead46d6c502544ecbf7fa5ed0c82}
