@@ -1,0 +1,16 @@
+How to increase Cheese's Burst Mode Photo Count
+permalink: how-to-increase-cheese-s-burst-mode-photo-count.html
+published: 2010-11-07T14:50:51.253652
+tags: cheese, gnome
+
+"Why does Cheese have a maximum photo count of 100 in burst mode?" questions have popped up quite a few times on the cheese list. It is just a teeny, tiny bug - fixed in master.
+
+The work around is simple: 
+
+**Till Cheese 2.32** 
+
+Raise it to whatever value you want in `line 8` of `/usr/share/cheese/cheese-prefs.ui`. 
+
+*(If you don't know what version you are running, check `Help -> About`)*
+
+(Fix is just raising the limit from 100 to something that most people will likely not hit. If they do hit it - well, `line 40 on /usr/share/cheese/cheese-prefs.ui` :D)
