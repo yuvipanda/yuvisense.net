@@ -1,7 +1,7 @@
 Moving to Vim from Emacs
 permalink: moving-to-vim-from-emacs.html
-published: 2010-12-07T01:14:21.573549
 tags: code
+published: 2010-12-07T01:14:21.573549
 
 I moved to Vim from Emacs a while back. I realized I was not using emacs to its fullest extent - I was using it as 'just a text editor', and alt-tabbing to `gnome-terminal` for most of my work. I was using one tool per job anyway, so why not go all the way and use a [text editor][1] for a text editor instead of [yet another operating system][2] :P
 
@@ -12,3 +12,7 @@ Muscle memory is still set to emacs (hit `C-k` several times when it should've b
 Last time I was on vim, I was just getting used to Linux, and switched to emacs a few months after. I wonder if I'll switch again in the future.
 
 TL;DR: Moved from Emacs to Vim 'coz I felt like it.
+
+[1]: http://www.vim.org/
+[2]: http://www.gnu.org/software/emacs/
+[3]: http://yuvi.in/blog/samsung-n210-review.html
