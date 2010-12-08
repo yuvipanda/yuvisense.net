@@ -7,7 +7,7 @@ $(document).ready(function(){
                             google.language.translate(result.translation, "el", "de", function(result) {
                                 google.language.translate(result.translation, "de", "no", function(result) {
                                     google.language.translate(result.translation, "no", "en", function(result) {
-                                $("#translated").text(result.translation);
+                                $("#translated").html(result.translation);
                                 });
                                 });
                                 });
