@@ -12,6 +12,8 @@
     width: 640px;
     height: 150px;
     border: none;
+    resize: none;
+    outline: none;
 }
 
 #text-container {
@@ -49,3 +51,14 @@
     margin-top: 50px;
     display: block;
 }
+
+footer {
+    color: DarkGrey;
+    margin-top: 150px;
+}
+
+footer a {
+    color: DimGrey;
+    text-decoration: none;
+}
+
