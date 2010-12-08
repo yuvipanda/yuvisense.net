@@ -1,0 +1,51 @@
+#container {
+    width: 760px;
+    margin: 0px auto;
+    font-size: 130%;
+    text-align: center;
+}
+
+#main {
+    margin-top: 50px;
+}
+#text {
+    width: 640px;
+    height: 150px;
+    border: none;
+}
+
+#text-container {
+    -moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+    /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000');
+    width: 640px;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+#go-container{
+    margin-top:50px;
+}
+#go {
+    font-size: 150%;
+    padding: 5px 30px;
+    text-decoration: none;
+    
+    -moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+    /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000');
+}
+
+#translated {
+    margin-top: 50px;
+    display: block;
+}

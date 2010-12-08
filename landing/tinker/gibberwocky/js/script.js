@@ -8,7 +8,7 @@ $(document).ready(function(){
                                 google.language.translate(result.translation, "de", "no", function(result) {
                                     google.language.translate(result.translation, "no", "ru", function(result) {
                                         google.language.translate(result.translation, "ru", "en", function(result) {
-                                $("#translated").html(result.translation);
+                                            $("#translated").html(result.translation);
                                 });
                                 });
                                 });
