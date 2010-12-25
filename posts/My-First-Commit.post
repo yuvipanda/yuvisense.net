@@ -1,7 +1,7 @@
 My First Accepted Patch!
 permalink: my-first-accepted-patch.html
-tags: code, gsoc
 published: 2010-05-01T19:04:18.751628
+tags: code, gsoc
 
 As part of my [GSoC][1] preparations, I wrote a few patches for [Cheese][2]. [One of them][3] (a one liner to fix a crash) has made it to [GNOME 2.30.1][4] - the other two ([1][bug1] and [2][bug2]) are slightly more significant and involve UI changes, and so will be integrated later.
 

@@ -1,0 +1,14 @@
+Enthusiastic Teachers and Naive Implementation of Gauss Seidel Approximations
+permalink: enthusiastic-teachers-and-naive-implementation-of-gauss-seidel-approximations.html
+published: 2010-12-25T11:50:04.992376
+tags: math, code
+
+This semester, one of our so called *electives* (despite the fact that we have no real choice in them) is Numerical Methods. I don't quite like the actual way the subject is taught - mind numbing, error prone calculations with a calculator. However, the methods are pretty awesome.
+
+The staff explained [Gauss Seidel][1] yesterday, and it seemed a straightforward recursive solution to me. So in the break, I cooked up a small python [script][2] that gave me all the intermediate answers as well - so for any *assignments* I could just run them through this and copy it to paper.
+
+<script src="https://gist.github.com/753872.js?file=gauss_seidel.py"></script>
+
+What happened after that was more interesting. The staff made an offhand remark that she hates the subject, since it involves so much mindnumbingly repetitive calculative work, and not something fun like probability theory. I picked it up, and we had an interesting conversation that ended up with me showing her a 3-function version of the above code and explaining to her how I got this. She was incredibly interested - and asked me how to explain each line properly. 
+
+Was a lot of fun. Sad that this is the first time in 3 years that I've had someone who is actually interested in what they're teaching, rather than treating it as just a normal 9-5 job not much different from herding sheep. What exactly can we do to change this?

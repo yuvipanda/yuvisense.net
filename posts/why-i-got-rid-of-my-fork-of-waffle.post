@@ -1,7 +1,7 @@
 Why I got rid of my fork of Waffle
 permalink: why-i-got-rid-of-my-fork-of-waffle.html
-tags: code
 published: 2009-10-21T00:27:55.371554
+tags: code
 
 For those of you who didn't know, [Waffle][1] is a [schemaless storage layer][2] that sits on top of SQLAlchemy. Something that I was initially very interested in.
 
