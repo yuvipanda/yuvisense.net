@@ -1,0 +1,48 @@
+Functional Programming Geekweekend at Thoughtworks
+permalink: functional-programming-geekweekend-at-thoughtworks.html
+tags: events, code
+published: 2011-01-25T18:51:26.846610
+
+*[Note: I've a rather large backlog of blog posts to do, will push them out as soon as I can]*
+
+Saturday (22 Jan 2011) was spent at [Geekweekend][1], organized at [Thougtworks Chennai][2]. The event had awesomeness written all over it, even before it started - how can *any* event where you register through a (rather limited, but still) command line interface on a website be not good? :D 
+
+I was late as usual (damn living so far away from everywhere) - and found my way walking through the underbelly of the Kathipara junction thanks to [Google Maps' Walking Directions][3] :P
+
+## Clojure
+
+Missed the first session. Turned up for the clojure session - it was good. I've been meaning to learn one of the OMGPARANTHESES langueages, and from the tooling/library support - clojure seems to be the way to go. Spent time during the talk setting up my machine to do clojure dev (took forever to setup - it is a netbook, afterall). Wanted to build something small before the end of the event (like a URL Shortener!) but too late for that.
+
+I do plan on writing something with clojure in the short term though. Looking for ideas.
+
+## Lunch
+
+Lunch. Met the usual group of geeks around. Fun, as usual :D Lunch was excellent. Me and [Superkiddo][sk] continued the tradition of stealing sweets from [Kishore][jkk]'s plate :D
+
+## Monads
+
+Then came the session on [Monads][4]. I still don't understand them. But that's okay - the discussion was rather intellectually stimulating. It also reminded me that my mathematical/theoretical-cs foundation is incredibly weak (by geek standards) and needs updating/pushing up. Should start on [SICP][sicp] (*again*).
+
+## Purely Functional Languages on the fringe 
+
+The discussions were the most fun, productive part of the day, IMO. Most people who weren't fully interested had already left - so the self-selected crowd was rather intense. Nobody there was actually using any purely functional language in production - which was expected. My opinion is that *purely* functional languages will always be on the fringe - as they should be. But features from them will trickle in slowly into mainstream, [blub][blub] programming languages (even PHP [has lambdas][phplambda] now!). Learning to think in a functional way will expand your mind, and make you a better programmer - even if you're not programming in a purely functional language. 
+
+## My Irrational Hate for Java
+
+I'm not sure from where  -- perhaps the fucked up Java GUI apps, or my early stage semicolon/case-sensitivity hate (hey, I was 14, what do you expect!) or the fact that Java the language is way too verbose -- I've had an irrational **hate** of all things Java/JVM. But that's just that - irrational. So I'm taking a concerted effort to learn myself some JVM - hence clojure. I still don't like Java the language (C# FTW!) - but the tools and libraries around JVM seem to be pretty good. Let's see how this experiment at de-biasing turns out!
+
+## Functional Programming Users group
+
+The idea of a Functional Language Users group was floated around. Waiting for it to turn up!
+
+## Thoughtworks 'crowd'
+
+I've generally found that events organized at Thoughworks/by Thoughtworkers have higher average audience quality than most other events. Thanks for putting together events guys :)
+
+[1]: http://www.geekweekend.in/index.html
+[2]: http://www.thoughtworks.com/other-offices
+[3]: http://maps.google.co.in
+[4]: http://en.wikipedia.org/wiki/Monad_(functional_programming)
+[5]: http://mitpress.mit.edu/sicp/
+[blub]: http://www.paulgraham.com/avg.html
+[phplambda]: http://php.net/manual/en/functions.anonymous.php
