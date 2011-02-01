@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Tue, 01 Feb 2011 01:04:40 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>NEN First Dot 2010 - What I learnt</title><link>http://yuvi.in/blog/nen-first-dot-2010-what-i-learnt.html</link><description>&lt;p&gt;I was part of the team that organized &lt;a href="http://nenfirstdot.in"&gt;NEN First Dot&lt;/a&gt; - a student startup showcase. I was involved from day 0, so I was able to see it evolve from a high-in-the-sky concept to something that actually did happen.  It was an incredible experience, to say the least.&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Tue, 01 Feb 2011 12:37:10 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DevLog: Jan 2011</title><link>http://yuvi.in/blog/devlog-jan-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording everyday 'productive' activity I do everyday. Publicly shaming myself into doing something productive every day. Just records for this month, next month on should provide time spent as well. There's an entry for every day when I've touched a computer. I'll be continuously refining this format, so feedback welcome&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Links: &lt;a href="http://32hourstartup.com"&gt;32HourStartup&lt;/a&gt;, &lt;a href="http://wiki.busroutes.in"&gt;Busroutes.in Wiki&lt;/a&gt;, &lt;a href="http://github.com/yuvipanda/PiTiVi"&gt;PiTiVi&lt;/a&gt;, &lt;a href="http://geekweekend.in"&gt;Geekweekend&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;27 Jan&lt;/h3&gt;
+&lt;p&gt;More of nothing productive. 32HourStartup is eating into my dev time.&lt;/p&gt;
+&lt;h3&gt;26 Jan&lt;/h3&gt;
+&lt;p&gt;Nothing productive. Ugh. 32hourstartup website.&lt;/p&gt;
+&lt;h3&gt;25 Jan&lt;/h3&gt;
+&lt;p&gt;Nothing productive. 32hourstartup website finally properly done.&lt;/p&gt;
+&lt;h3&gt;24 Jan&lt;/h3&gt;
+&lt;p&gt;PiTiVi can now record audio into proper temp files, and insert them into the sources list when done. Also have a neat, complicated looking (:() VUMeter integrated. &lt;/p&gt;
+&lt;p&gt;Worked on the 32hourstartup website. Deployment is a bitch.&lt;/p&gt;
+&lt;p&gt;Couldn't sleep. Woke up, fixed site. Fucking slow.&lt;/p&gt;
+&lt;h3&gt;23 Jan&lt;/h3&gt;
+&lt;p&gt;Not much code. Worked on 32 Hour Startup website. Read more clojure books. &lt;/p&gt;
+&lt;h3&gt;22 Jan&lt;/h3&gt;
+&lt;p&gt;Attended Geekweekend. Was fun. I'm now gonna learn myself some clojure. Setup a clojure dev environment. Trying to kill my JVM Biases. &lt;/p&gt;
+&lt;h3&gt;21 Jan&lt;/h3&gt;
+&lt;p&gt;Read more PiTiVi code. Refactored the audiorecord bits off. Registered and put up a landing page on 32hourstartup.com&lt;/p&gt;
+&lt;h3&gt;20 Jan&lt;/h3&gt;
+&lt;p&gt;Did nothing today. Read parts of PiTiVi code. Built up my ohloh profile a bit more. That is it. Sad&lt;/p&gt;
+&lt;h3&gt;19 Jan&lt;/h3&gt;
+&lt;h4&gt;Busroutes.in wiki&lt;/h4&gt;
+&lt;p&gt;Nothing major got done. Unable to figure out easy way to start out on chennai (the center and zoom properties don't seem to work - maybe parser caching?). Need to spend more time on this&lt;/p&gt;
+&lt;h4&gt;PiTiVi&lt;/h4&gt;
+&lt;p&gt;Finally settled on a UI that both me and @nekohayo liked ('inspired' in no small way by iMovie :P). Should start working on the actual implementation now. Sent first email to the FSF folks with some semblance of 'work done'. Feels good.&lt;/p&gt;
+&lt;h4&gt;Misc Sysadmin Stuff&lt;/h4&gt;
+&lt;p&gt;Setup server for Mohan. &lt;/p&gt;
+&lt;h3&gt;18 Jan&lt;/h3&gt;
+&lt;h4&gt;Busroutes.in Wiki&lt;/h4&gt;
+&lt;p&gt;Got Semantic Forms to work with Map input. Pulled in @kidbees (Bala) who did most of the Train routes entry. Templatized 'Type' for host. Need to find easier way to geocode. &lt;/p&gt;
+&lt;h4&gt;PiTiVi&lt;/h4&gt;
+&lt;p&gt;Preliminary UI work/discussion with the PiTiVi guys. The dialog box approach didn't quite work out, so we're now moving to something more elegant and simplistic. It's fun working with a responsive community (@nekohayo)&lt;/p&gt;
+&lt;h3&gt;12-17 Jan&lt;/h3&gt;
+&lt;h4&gt;Busroutes.in Wiki&lt;/h4&gt;
+&lt;p&gt;http://wiki.busroutes.in is up and running, thanks to AWS Free and @logic's credit card. Semantic Mediawiki and a few extensions on. Getting to work figuring out all the templates and the extensions that turn SMW into something rather close to a programming language (It has conditionals! And templates can really be thought of as retarded functions). Started adding MRTS data - aim to complete Chennai Suburban Rails too fully and expose that data. &lt;/p&gt;
+&lt;h4&gt;Tamilbeat.com Script&lt;/h4&gt;
+&lt;p&gt;Simple python script that scraped Tamilbeat.com, located all songs for all movies and spat out a shell script that used wget to download them into properly organized folders. The script also used &lt;code&gt;eyeD3&lt;/code&gt; to set artist information on the songs. The script produced was incredibly dirty (no error checking, &lt;strong&gt;HUGE&lt;/strong&gt; &lt;em&gt;fuck you&lt;/em&gt; to 'seperation of code and data') - but worked wonderfully. Too wonderfully infact - I quickly used up 20G of my 25G allowance per month of usage, and it shows no sign of quitting. Will re run once I cross 25G.&lt;/p&gt;
+&lt;p&gt;The template output method was neat (template contained in .py file as triple quoted string, jinja2 template). Should rework it to seperate code and data. &lt;/p&gt;
+&lt;h4&gt;Cheese&lt;/h4&gt;
+&lt;p&gt;Planning on helping out with the port to gtk3. Spent good few hours on 17th setting up a gtk3 env (no jhbuild, uses --prefix and a custom activate script). Maybe I should try and learn how to use jhbuild - but my experience (and that of others in general) seems to be one of pain. Maybe next time I need to setup something custom.&lt;/p&gt;
+&lt;h4&gt;Work that needed to be done, but not done&lt;/h4&gt;
+&lt;p&gt;PiTiVi. I'll give it more love next week.
+The Backup Thingy. I &lt;em&gt;do&lt;/em&gt; need to do this. But when? 
+Personal Domains. Ugh.&lt;/p&gt;
+&lt;h4&gt;Misc. Sysadmin stuff&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup SSN's Lakshya website on my server (webfaction). I personally found http://ssnlakshya.cloud10.in hilarious ;)&lt;/li&gt;
+&lt;li&gt;Setup PHP for Sriram on pirayalpha. Need to setup wsgi for him. Also gave him ownership of his nginx conf file, so he can actually do edits - but I've to be around to restart it. Proved a good decision, as he accidentally left out a } the first time he edited anything and bought the server to a halt. He's incredibly remarkable for a 12 year old.&lt;/li&gt;
+&lt;li&gt;Tried upgrading my system to Natty. Botched. Main system getting more and more fucked by the day. Fresh install of Maverick, or is it finally time to move to Debian on my main system too? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Till Jan 12th&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://nenfirstdot.in"&gt;NEN First Dot&lt;/a&gt; work too much to let me do much else.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/devlog-jan-2011.html</guid><pubDate>Tue, 01 Feb 2011 12:37:06 GMT</pubDate></item><item><title>NEN First Dot 2010 - What I learnt</title><link>http://yuvi.in/blog/nen-first-dot-2010-what-i-learnt.html</link><description>&lt;p&gt;I was part of the team that organized &lt;a href="http://nenfirstdot.in"&gt;NEN First Dot&lt;/a&gt; - a student startup showcase. I was involved from day 0, so I was able to see it evolve from a high-in-the-sky concept to something that actually did happen.  It was an incredible experience, to say the least.&lt;/p&gt;
 &lt;h3&gt;What I learnt&lt;/h3&gt;
 &lt;p&gt;I was the 'tech' guy - working with a few people (Karthik, Arun, Madhu, Dinesh, etc) to take care of most things tech. The entire team that organized this was rather huge - and I was pretty much interacting with them all the time. This was the first time I felt "part of something larger than myself" - part of a large Team for real. It was an incredible learning experience, to say the least.&lt;/p&gt;
 &lt;p&gt;Here is a partial list, written a few weeks after the event ended. By no means complete.&lt;/p&gt;
@@ -62,7 +113,4 @@
 &lt;/ol&gt;
 &lt;p&gt;Hello Ubuntu! (I also hate Unity 'coz it takes up precious screen space - might move to something else soon)&lt;/p&gt;
 &lt;p&gt;TL;DR: Arch doesn't have enough binary packages and building on a netbook sucks&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/why-i-moved-off-arch-on-my-netbook.html</guid><pubDate>Mon, 01 Nov 2010 17:24:25 GMT</pubDate></item><item><title>Trip to Kerala</title><link>http://yuvi.in/blog/trip-to-kerala.html</link><description>&lt;p&gt;I, along with about a 100 other classmates of mine, went on an &lt;em&gt;Industrial Visit&lt;/em&gt; to Kerala a few weeks back. It was a 3 day, 4 night affair - and was incredibly fun and refreshing. New friendships were forged, old ones rekindled, temptations resisted, a thousand pictures clicked (thanks to @RohitP's camera), group dynamics studied and incredible fun had. It was very refreshing (for the most part), and I realized just why vacations are important.&lt;/p&gt;
-&lt;p&gt;I plan on visiting [Athrapalli Falls][afalls] again as soon as I possibly can. Being in fast moving, (relatively) cold water is an incredibly experience I'm glad I didn't miss. You shouldn't either.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/trip-to-kerala.html</guid><pubDate>Sat, 16 Oct 2010 21:19:07 GMT</pubDate></item><item><title>Blogging From Under The Table During Class</title><link>http://yuvi.in/blog/blogging-from-under-the-table-during-class.html</link><description>&lt;p&gt;One of the major advantages of my netbook is that I can actually use it in class, under the desk - and most staff won't notice ;) And even if they do, I can easily and neatly close the lid, put it in standby and become innocent good boy :D&lt;/p&gt;
-&lt;p&gt;I've zoned out from what's happening in class a long time back. I just looked up, and it's something I really do like (withheld to protect the name of subject). It's being taught in a 'marks-oriented' way - "You need to write this for this much marks, and that for that much mark. Don't you dare to miss this line, then YOU WILL GET ZERO MARKS!'. I look around. Most people are either texting others, or dutifully copying down what is being written on the board (which itself is copied from some TextBook). I zone out again.&lt;/p&gt;
-&lt;p&gt;8 hours a day. Waking up everyday at an ungodly 6 AM. Around 2 Lakhs not counting auxillary expenses. 2 hour commute that makes you wish you were dead, after giving you an awful back pain. A huge set of lessons in politics.&lt;/p&gt;
-&lt;p&gt;I wonder what I'm getting out of this. What &lt;em&gt;anybody&lt;/em&gt; is getting out of this.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/blogging-from-under-the-table-during-class.html</guid><pubDate>Tue, 07 Sep 2010 14:22:55 GMT</pubDate></item></channel></rss>
+&lt;p&gt;I plan on visiting [Athrapalli Falls][afalls] again as soon as I possibly can. Being in fast moving, (relatively) cold water is an incredibly experience I'm glad I didn't miss. You shouldn't either.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/trip-to-kerala.html</guid><pubDate>Sat, 16 Oct 2010 21:19:07 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+    <title>
+        
+DevLog: Jan 2011
+ | YuviSense
+    </title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="http://yuvi.in/blog/static/style.css" />
+    
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-970897-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<link rel="stylesheet" type="text/css" href="http://yuvi.in/blog/static/codehilite.css" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://feeds.feedburner.com/Yuvisense/" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="/">YuviSense</a> <span>Codin Kid</span></h1>
+            <div class="stripcontainer">
+                <div class="strip" id="projects">                    
+                    <strong>An 19 year old guy from Chennai, India who codes, photographs & has fun</strong> <a href="/blog/about-me.html"><small>More...</small></a>
+                </div>
+            </div>
+            <br />
+            
+
+<div class="post">
+    <div class="content">
+   <h3 class="entry-title">
+       <a href="http://yuvi.in/blog/devlog-jan-2011.html" rel="bookmark">DevLog: Jan 2011</a>
+   </h3>
+   <div class="entry-content">
+       <p><em>I've started keeping devlogs, recording everyday 'productive' activity I do everyday. Publicly shaming myself into doing something productive every day. Just records for this month, next month on should provide time spent as well. There's an entry for every day when I've touched a computer. I'll be continuously refining this format, so feedback welcome</em></p>
+<p>Links: <a href="http://32hourstartup.com">32HourStartup</a>, <a href="http://wiki.busroutes.in">Busroutes.in Wiki</a>, <a href="http://github.com/yuvipanda/PiTiVi">PiTiVi</a>, <a href="http://geekweekend.in">Geekweekend</a></p>
+<h3>27 Jan</h3>
+<p>More of nothing productive. 32HourStartup is eating into my dev time.</p>
+<h3>26 Jan</h3>
+<p>Nothing productive. Ugh. 32hourstartup website.</p>
+<h3>25 Jan</h3>
+<p>Nothing productive. 32hourstartup website finally properly done.</p>
+<h3>24 Jan</h3>
+<p>PiTiVi can now record audio into proper temp files, and insert them into the sources list when done. Also have a neat, complicated looking (:() VUMeter integrated. </p>
+<p>Worked on the 32hourstartup website. Deployment is a bitch.</p>
+<p>Couldn't sleep. Woke up, fixed site. Fucking slow.</p>
+<h3>23 Jan</h3>
+<p>Not much code. Worked on 32 Hour Startup website. Read more clojure books. </p>
+<h3>22 Jan</h3>
+<p>Attended Geekweekend. Was fun. I'm now gonna learn myself some clojure. Setup a clojure dev environment. Trying to kill my JVM Biases. </p>
+<h3>21 Jan</h3>
+<p>Read more PiTiVi code. Refactored the audiorecord bits off. Registered and put up a landing page on 32hourstartup.com</p>
+<h3>20 Jan</h3>
+<p>Did nothing today. Read parts of PiTiVi code. Built up my ohloh profile a bit more. That is it. Sad</p>
+<h3>19 Jan</h3>
+<h4>Busroutes.in wiki</h4>
+<p>Nothing major got done. Unable to figure out easy way to start out on chennai (the center and zoom properties don't seem to work - maybe parser caching?). Need to spend more time on this</p>
+<h4>PiTiVi</h4>
+<p>Finally settled on a UI that both me and @nekohayo liked ('inspired' in no small way by iMovie :P). Should start working on the actual implementation now. Sent first email to the FSF folks with some semblance of 'work done'. Feels good.</p>
+<h4>Misc Sysadmin Stuff</h4>
+<p>Setup server for Mohan. </p>
+<h3>18 Jan</h3>
+<h4>Busroutes.in Wiki</h4>
+<p>Got Semantic Forms to work with Map input. Pulled in @kidbees (Bala) who did most of the Train routes entry. Templatized 'Type' for host. Need to find easier way to geocode. </p>
+<h4>PiTiVi</h4>
+<p>Preliminary UI work/discussion with the PiTiVi guys. The dialog box approach didn't quite work out, so we're now moving to something more elegant and simplistic. It's fun working with a responsive community (@nekohayo)</p>
+<h3>12-17 Jan</h3>
+<h4>Busroutes.in Wiki</h4>
+<p>http://wiki.busroutes.in is up and running, thanks to AWS Free and @logic's credit card. Semantic Mediawiki and a few extensions on. Getting to work figuring out all the templates and the extensions that turn SMW into something rather close to a programming language (It has conditionals! And templates can really be thought of as retarded functions). Started adding MRTS data - aim to complete Chennai Suburban Rails too fully and expose that data. </p>
+<h4>Tamilbeat.com Script</h4>
+<p>Simple python script that scraped Tamilbeat.com, located all songs for all movies and spat out a shell script that used wget to download them into properly organized folders. The script also used <code>eyeD3</code> to set artist information on the songs. The script produced was incredibly dirty (no error checking, <strong>HUGE</strong> <em>fuck you</em> to 'seperation of code and data') - but worked wonderfully. Too wonderfully infact - I quickly used up 20G of my 25G allowance per month of usage, and it shows no sign of quitting. Will re run once I cross 25G.</p>
+<p>The template output method was neat (template contained in .py file as triple quoted string, jinja2 template). Should rework it to seperate code and data. </p>
+<h4>Cheese</h4>
+<p>Planning on helping out with the port to gtk3. Spent good few hours on 17th setting up a gtk3 env (no jhbuild, uses --prefix and a custom activate script). Maybe I should try and learn how to use jhbuild - but my experience (and that of others in general) seems to be one of pain. Maybe next time I need to setup something custom.</p>
+<h4>Work that needed to be done, but not done</h4>
+<p>PiTiVi. I'll give it more love next week.
+The Backup Thingy. I <em>do</em> need to do this. But when? 
+Personal Domains. Ugh.</p>
+<h4>Misc. Sysadmin stuff</h4>
+<ul>
+<li>Setup SSN's Lakshya website on my server (webfaction). I personally found http://ssnlakshya.cloud10.in hilarious ;)</li>
+<li>Setup PHP for Sriram on pirayalpha. Need to setup wsgi for him. Also gave him ownership of his nginx conf file, so he can actually do edits - but I've to be around to restart it. Proved a good decision, as he accidentally left out a } the first time he edited anything and bought the server to a halt. He's incredibly remarkable for a 12 year old.</li>
+<li>Tried upgrading my system to Natty. Botched. Main system getting more and more fucked by the day. Fresh install of Maverick, or is it finally time to move to Debian on my main system too? </li>
+</ul>
+<h3>Till Jan 12th</h3>
+<p><a href="http://nenfirstdot.in">NEN First Dot</a> work too much to let me do much else.</p>
+   </div>
+   <div class="entry-meta">
+        <div class='entry-tags'>
+            Tags: 
+            <a rel="tag" href="http://yuvi.in/blog/tag/devlog.html">devlog</a>
+            
+        </div>
+        <div class='entry-date'>
+            Published at Tuesday 01 February '11 | <a href="http://yuvi.in/blog/devlog-jan-2011.html#disqus_thread">View Comments</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+    var disqus_developer = 1;
+</script>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/yuvisense/embed.js"></script><noscript><a href="http://yuvisense.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            <br />
+            <div class="footer">
+                <div style="width:200px;">
+                    <p><strong>About Me</strong></p>
+                    <p>I am Yuvi. I am 19. I live in Chennai, India. I study in an (IMO) awesome college. I have fun. I code. I photograph. I blog. I text. I organize stuff for my college. I just mess around a lot. I have fun :)</p>
+                </div>
+                <div>
+                    <p><strong>My Stuff</strong></p>
+                    <ul style="list-style:none">
+                        <li><a href="http://github.com/yuvipanda">My Code</a></li>
+                        <li><a href="http://flickr.com/photos/yuvi">My Photographs</a></li>
+                        <li><small>...will add more here</small></li>
+                    </ul>
+                </div>               
+                <div>
+                    <p><strong>Me</strong></p>
+                    <ul style="list-style:none;">
+                        <li>
+ <img src="http://www.google.com/s2/favicons?domain=flickr.com" />                           <a href="http://flickr.com/photos/yuvi">Flickr</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=twitter.com" /><a href="http://twitter.com/yuvipanda">Twitter</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=friendfeed.com" /><a href="http://friendfeed.com/yuvipanda">FriendFeed</a></li>
+                        <li><img src="http://www.google.com/s2/favicons?domain=github.com" /><a href="http://github.com/yuvipanda">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="copyright">
+                <p>
+                YuviSense powered by HiSlain using <a href="http://theojones.net/tj-clean-wordpress-theme">TJ Clean Theme</a> ported from Wordpress
+                </p>
+            </div>
+        </div>        
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/yuvisense/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
+
+</body>
+</html>

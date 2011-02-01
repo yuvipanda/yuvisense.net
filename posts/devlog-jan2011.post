@@ -1,0 +1,106 @@
+DevLog: Jan 2011
+permalink: devlog-jan-2011.html
+published: 2011-02-01T12:37:06.551287
+tags: devlog
+
+*I've started keeping devlogs, recording everyday 'productive' activity I do everyday. Publicly shaming myself into doing something productive every day. Just records for this month, next month on should provide time spent as well. There's an entry for every day when I've touched a computer. I'll be continuously refining this format, so feedback welcome*
+
+Links: [32HourStartup][32hs], [Busroutes.in Wiki][briwiki], [PiTiVi][pitivi], [Geekweekend][gwe]
+
+### 27 Jan
+
+More of nothing productive. 32HourStartup is eating into my dev time.
+
+### 26 Jan
+
+Nothing productive. Ugh. 32hourstartup website.
+
+### 25 Jan
+
+Nothing productive. 32hourstartup website finally properly done.
+
+### 24 Jan
+
+PiTiVi can now record audio into proper temp files, and insert them into the sources list when done. Also have a neat, complicated looking (:() VUMeter integrated. 
+
+Worked on the 32hourstartup website. Deployment is a bitch.
+
+Couldn't sleep. Woke up, fixed site. Fucking slow.
+
+### 23 Jan
+
+Not much code. Worked on 32 Hour Startup website. Read more clojure books. 
+
+### 22 Jan
+
+Attended Geekweekend. Was fun. I'm now gonna learn myself some clojure. Setup a clojure dev environment. Trying to kill my JVM Biases. 
+
+### 21 Jan
+
+Read more PiTiVi code. Refactored the audiorecord bits off. Registered and put up a landing page on 32hourstartup.com
+
+### 20 Jan
+
+Did nothing today. Read parts of PiTiVi code. Built up my ohloh profile a bit more. That is it. Sad
+
+### 19 Jan
+
+#### Busroutes.in wiki
+
+Nothing major got done. Unable to figure out easy way to start out on chennai (the center and zoom properties don't seem to work - maybe parser caching?). Need to spend more time on this
+
+#### PiTiVi
+
+Finally settled on a UI that both me and @nekohayo liked ('inspired' in no small way by iMovie :P). Should start working on the actual implementation now. Sent first email to the FSF folks with some semblance of 'work done'. Feels good.
+
+#### Misc Sysadmin Stuff
+
+Setup server for Mohan. 
+
+### 18 Jan
+
+#### Busroutes.in Wiki
+
+Got Semantic Forms to work with Map input. Pulled in @kidbees (Bala) who did most of the Train routes entry. Templatized 'Type' for host. Need to find easier way to geocode. 
+
+#### PiTiVi
+
+Preliminary UI work/discussion with the PiTiVi guys. The dialog box approach didn't quite work out, so we're now moving to something more elegant and simplistic. It's fun working with a responsive community (@nekohayo)
+
+### 12-17 Jan
+
+#### Busroutes.in Wiki
+
+http://wiki.busroutes.in is up and running, thanks to AWS Free and @logic's credit card. Semantic Mediawiki and a few extensions on. Getting to work figuring out all the templates and the extensions that turn SMW into something rather close to a programming language (It has conditionals! And templates can really be thought of as retarded functions). Started adding MRTS data - aim to complete Chennai Suburban Rails too fully and expose that data. 
+
+#### Tamilbeat.com Script
+
+Simple python script that scraped Tamilbeat.com, located all songs for all movies and spat out a shell script that used wget to download them into properly organized folders. The script also used `eyeD3` to set artist information on the songs. The script produced was incredibly dirty (no error checking, **HUGE** *fuck you* to 'seperation of code and data') - but worked wonderfully. Too wonderfully infact - I quickly used up 20G of my 25G allowance per month of usage, and it shows no sign of quitting. Will re run once I cross 25G.
+
+The template output method was neat (template contained in .py file as triple quoted string, jinja2 template). Should rework it to seperate code and data. 
+
+#### Cheese 
+
+Planning on helping out with the port to gtk3. Spent good few hours on 17th setting up a gtk3 env (no jhbuild, uses --prefix and a custom activate script). Maybe I should try and learn how to use jhbuild - but my experience (and that of others in general) seems to be one of pain. Maybe next time I need to setup something custom.
+
+#### Work that needed to be done, but not done
+
+PiTiVi. I'll give it more love next week.
+The Backup Thingy. I *do* need to do this. But when? 
+Personal Domains. Ugh.
+
+#### Misc. Sysadmin stuff
+
+- Setup SSN's Lakshya website on my server (webfaction). I personally found http://ssnlakshya.cloud10.in hilarious ;)
+- Setup PHP for Sriram on pirayalpha. Need to setup wsgi for him. Also gave him ownership of his nginx conf file, so he can actually do edits - but I've to be around to restart it. Proved a good decision, as he accidentally left out a } the first time he edited anything and bought the server to a halt. He's incredibly remarkable for a 12 year old.
+- Tried upgrading my system to Natty. Botched. Main system getting more and more fucked by the day. Fresh install of Maverick, or is it finally time to move to Debian on my main system too? 
+
+### Till Jan 12th
+
+[NEN First Dot][nfd] work too much to let me do much else.
+
+[gwe]: http://geekweekend.in
+[pitivi]: http://github.com/yuvipanda/PiTiVi
+[briwiki]: http://wiki.busroutes.in
+[32hs]: http://32hourstartup.com
+[nfd]: http://nenfirstdot.in
