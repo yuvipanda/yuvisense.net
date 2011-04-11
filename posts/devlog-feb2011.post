@@ -1,0 +1,64 @@
+DevLog: Feb 2011
+permalink: devlog-feb-2011.html
+published: 2011-04-11T21:24:26.315879
+tags: devlog
+
+*I've started keeping devlogs, recording everyday productive activity in an attempt to publicly shaming myselfinto doing something productive everyday. This is the delayed february editin*
+
+Links: [32HourStartup](http://32hourstartup.com/), [PiTiVi](http://pitivi.org), [TEDxSSN](http://tedxssn.com)
+
+### Feb 26
+
+Initial work on Busroutes.in wiki import script.
+
+### Feb 25
+
+Audio Save Dialog mostly works now.
+
+### Feb 23
+
+Started implementing Audio Name dialog box in PiTiVi. Dad fixed laptop - new Ethernet port, and working speakers. 
+
+### Feb 22 
+
+Started doing layouts for WhyKCGRocks.com
+
+### Feb 18 - 21
+
+Spent at NIT Trichy. Gave GNOME Talk. Started on briclient. Discussed various models with Kishore (for the wiki). Helped lut4rp compile gstreamer. Started contributing to PyLINQ
+
+### Feb 16
+
+Worked on pitivi a bit more. Once recording is done, the track gets inserted into the timeline. 
+
+### Feb 15
+
+Worked on pitivi a bit. Moved recording inside main pipeline itself. Started #chennai-hackers for people from Chennai who are planning to do GSoC. Madhu, Karthik, Arun, Bala, Feroze on it so far. Fun! 
+
+Wrote a simple color changer in gtk that is controlled by the wii. Roll controls hue and pitch controls s and v. Fun!
+
+### Feb 9 - Feb 14
+
+TEDxSSN, Banagalore, etc. Nothing got done.
+
+### Feb 8
+
+'Open House Project Day' demo at college. Showed off gstreamer based video streaming via nn ad-hoc network, then wii+torcs. Fun with gibberwocky :P
+
+### Feb 5-6
+
+32HourStartup. Ran around helping people out. Worked with Karthik and Madhu on a PHP/FB app. Fun :)
+
+### Feb 3-4
+
+More 32HourStartup stuff. Busroutes.in still down.
+
+### Feb 2
+
+Read ~100 pages of the libc manual. Worked on badges for 32HourStartup. 
+
+Busroutes.in is down. DNS issue. Out of our control - We're trying to bring it to our control. 
+
+### Feb 1
+
+Wrote 'Functionalish' C# to be posted in response to the Accumulator in Java thread at fpug-c. Haven't posted it yet.

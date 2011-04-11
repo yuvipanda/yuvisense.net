@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Sun, 10 Apr 2011 23:03:33 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GStreamer 101 at GNOME Asia 2011</title><link>http://yuvi.in/blog/gstreamer-101-at-gnome-asia-2011.html</link><description>&lt;p&gt;My &lt;code&gt;GStreamer 101&lt;/code&gt; presentation at &lt;a href="http://gnome.asia"&gt;GNOME.asia&lt;/a&gt; was &lt;em&gt;very&lt;/em&gt; wel received. I was quite happy with the way it turned out. Thanks to &lt;a href="http://arunraghavan.net/"&gt;Ford_Prefect&lt;/a&gt; and &lt;a href="http://abharath.wordpress.com/"&gt;Bharath Acharya&lt;/a&gt; for pulling me in :)&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Mon, 11 Apr 2011 21:24:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DevLog: Feb 2011</title><link>http://yuvi.in/blog/devlog-feb-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording everyday productive activity in an attempt to publicly shaming myselfinto doing something productive everyday. This is the delayed february editin&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Links: &lt;a href="http://32hourstartup.com/"&gt;32HourStartup&lt;/a&gt;, &lt;a href="http://pitivi.org"&gt;PiTiVi&lt;/a&gt;, &lt;a href="http://tedxssn.com"&gt;TEDxSSN&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Feb 26&lt;/h3&gt;
+&lt;p&gt;Initial work on Busroutes.in wiki import script.&lt;/p&gt;
+&lt;h3&gt;Feb 25&lt;/h3&gt;
+&lt;p&gt;Audio Save Dialog mostly works now.&lt;/p&gt;
+&lt;h3&gt;Feb 23&lt;/h3&gt;
+&lt;p&gt;Started implementing Audio Name dialog box in PiTiVi. Dad fixed laptop - new Ethernet port, and working speakers. &lt;/p&gt;
+&lt;h3&gt;Feb 22&lt;/h3&gt;
+&lt;p&gt;Started doing layouts for WhyKCGRocks.com&lt;/p&gt;
+&lt;h3&gt;Feb 18 - 21&lt;/h3&gt;
+&lt;p&gt;Spent at NIT Trichy. Gave GNOME Talk. Started on briclient. Discussed various models with Kishore (for the wiki). Helped lut4rp compile gstreamer. Started contributing to PyLINQ&lt;/p&gt;
+&lt;h3&gt;Feb 16&lt;/h3&gt;
+&lt;p&gt;Worked on pitivi a bit more. Once recording is done, the track gets inserted into the timeline. &lt;/p&gt;
+&lt;h3&gt;Feb 15&lt;/h3&gt;
+&lt;p&gt;Worked on pitivi a bit. Moved recording inside main pipeline itself. Started #chennai-hackers for people from Chennai who are planning to do GSoC. Madhu, Karthik, Arun, Bala, Feroze on it so far. Fun! &lt;/p&gt;
+&lt;p&gt;Wrote a simple color changer in gtk that is controlled by the wii. Roll controls hue and pitch controls s and v. Fun!&lt;/p&gt;
+&lt;h3&gt;Feb 9 - Feb 14&lt;/h3&gt;
+&lt;p&gt;TEDxSSN, Banagalore, etc. Nothing got done.&lt;/p&gt;
+&lt;h3&gt;Feb 8&lt;/h3&gt;
+&lt;p&gt;'Open House Project Day' demo at college. Showed off gstreamer based video streaming via nn ad-hoc network, then wii+torcs. Fun with gibberwocky :P&lt;/p&gt;
+&lt;h3&gt;Feb 5-6&lt;/h3&gt;
+&lt;p&gt;32HourStartup. Ran around helping people out. Worked with Karthik and Madhu on a PHP/FB app. Fun :)&lt;/p&gt;
+&lt;h3&gt;Feb 3-4&lt;/h3&gt;
+&lt;p&gt;More 32HourStartup stuff. Busroutes.in still down.&lt;/p&gt;
+&lt;h3&gt;Feb 2&lt;/h3&gt;
+&lt;p&gt;Read ~100 pages of the libc manual. Worked on badges for 32HourStartup. &lt;/p&gt;
+&lt;p&gt;Busroutes.in is down. DNS issue. Out of our control - We're trying to bring it to our control. &lt;/p&gt;
+&lt;h3&gt;Feb 1&lt;/h3&gt;
+&lt;p&gt;Wrote 'Functionalish' C# to be posted in response to the Accumulator in Java thread at fpug-c. Haven't posted it yet.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/devlog-feb-2011.html</guid><pubDate>Mon, 11 Apr 2011 21:24:26 GMT</pubDate></item><item><title>GStreamer 101 at GNOME Asia 2011</title><link>http://yuvi.in/blog/gstreamer-101-at-gnome-asia-2011.html</link><description>&lt;p&gt;My &lt;code&gt;GStreamer 101&lt;/code&gt; presentation at &lt;a href="http://gnome.asia"&gt;GNOME.asia&lt;/a&gt; was &lt;em&gt;very&lt;/em&gt; wel received. I was quite happy with the way it turned out. Thanks to &lt;a href="http://arunraghavan.net/"&gt;Ford_Prefect&lt;/a&gt; and &lt;a href="http://abharath.wordpress.com/"&gt;Bharath Acharya&lt;/a&gt; for pulling me in :)&lt;/p&gt;
 &lt;p&gt;My very minimal slides are &lt;a href="http://www.slideshare.net/yuvipanda/gstreamer-101"&gt;here&lt;/a&gt;. You can reuse them if you want to. &lt;/p&gt;
 &lt;p&gt;Sadly, missed the week long hackfest :( Next time!&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/gstreamer-101-at-gnome-asia-2011.html</guid><pubDate>Sun, 10 Apr 2011 23:02:48 GMT</pubDate></item><item><title>DevLog: Jan 2011</title><link>http://yuvi.in/blog/devlog-jan-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording everyday 'productive' activity I do everyday. Publicly shaming myself into doing something productive every day. Just records for this month, next month on should provide time spent as well. There's an entry for every day when I've touched a computer. I'll be continuously refining this format, so feedback welcome&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Links: &lt;a href="http://32hourstartup.com"&gt;32HourStartup&lt;/a&gt;, &lt;a href="http://wiki.busroutes.in"&gt;Busroutes.in Wiki&lt;/a&gt;, &lt;a href="http://github.com/yuvipanda/PiTiVi"&gt;PiTiVi&lt;/a&gt;, &lt;a href="http://geekweekend.in"&gt;Geekweekend&lt;/a&gt;&lt;/p&gt;
@@ -108,10 +137,4 @@ Personal Domains. Ugh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Till Cheese 2.32&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;Raise it to whatever value you want in &lt;code&gt;line 8&lt;/code&gt; of &lt;code&gt;/usr/share/cheese/cheese-prefs.ui&lt;/code&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(If you don't know what version you are running, check &lt;code&gt;Help -&amp;gt; About&lt;/code&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;(Fix is just raising the limit from 100 to something that most people will likely not hit. If they do hit it - well, &lt;code&gt;line 40 on /usr/share/cheese/cheese-prefs.ui&lt;/code&gt; :D)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/how-to-increase-cheese-s-burst-mode-photo-count.html</guid><pubDate>Sun, 07 Nov 2010 14:50:51 GMT</pubDate></item><item><title>Why I moved off Arch (on my Netbook)</title><link>http://yuvi.in/blog/why-i-moved-off-arch-on-my-netbook.html</link><description>&lt;p&gt;I posted a while back that I &lt;a href="http://yuvi.in/blog/running-archlinux.html"&gt;moved&lt;/a&gt; to Arch (from Ubuntu) on my Netbook. That was almost two months back. My Arch experiment, sadly, didn't work out for long. I moved back to Ubuntu within a couple of week's time. Why?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Lack of binary packages. I had to build quite a few packages from source because there were no binary packages available. The tilting point was when I figured there were no binary packges for mit-scheme! Ofcourse, I could've just used AUR and built them from source, but...&lt;/li&gt;
-&lt;li&gt;Building from source on my Netbook sucks. ATOM + Slow Hard Drive -&amp;gt; I'm nuts waiting for stuff to compile. The AUR is basically useless to me.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Hello Ubuntu! (I also hate Unity 'coz it takes up precious screen space - might move to something else soon)&lt;/p&gt;
-&lt;p&gt;TL;DR: Arch doesn't have enough binary packages and building on a netbook sucks&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/why-i-moved-off-arch-on-my-netbook.html</guid><pubDate>Mon, 01 Nov 2010 17:24:25 GMT</pubDate></item></channel></rss>
+&lt;p&gt;(Fix is just raising the limit from 100 to something that most people will likely not hit. If they do hit it - well, &lt;code&gt;line 40 on /usr/share/cheese/cheese-prefs.ui&lt;/code&gt; :D)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/how-to-increase-cheese-s-burst-mode-photo-count.html</guid><pubDate>Sun, 07 Nov 2010 14:50:51 GMT</pubDate></item></channel></rss>
