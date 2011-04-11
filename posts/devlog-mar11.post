@@ -1,0 +1,42 @@
+DevLog: Mar 2011
+permalink: devlog-mar-2011.html
+published: 2011-04-11T21:45:12.208391
+tags: devlog
+
+*I've started keeping devlogs, recording productive activity every day in an attempt to publicly shame myself into doing productive things. This is the delayed march edition*
+
+### Mar 20 - 31
+
+More contract work for more money.
+
+My dump patch to meidawiki got commited, then blasted during Code Review. This is what I get for trusting other people's code blindly, especially after 5 years. Lesson learnt. Fixed all issues, and now waiting for a review before commit.
+
+More help for Madhu's GSoC, on and off. Same for Arun and Karthik. 
+
+Decide to give up on dumps (no concrete work found) and pick up wikipedia offline, after post to wikitech-l by the offline guy saying he is looking for people. 
+
+Channels #mediawiki and #wikimedia-tech are quite fun, actually. Not bad at all.
+
+Started writing php code. Not that ugh, actually. 
+
+Spent 3 days at In50Hrs. Prototyped the CollegeReviews thing I was always dreaming about. Concepts were fleshed out really well. Need to spend more time on this thing.
+
+### Mar 15 - 20
+
+Almost got fix to Mediawiki that made dumps 5% faster. Now just need to prove it on a larger scale before it gets accepted.
+
+Did contracting work for some decent money. Feels pretty good.
+
+Started helping madhu with her gsoc. She's darn smart. 
+
+### Mar 14
+
+Did bits of resume.
+
+### Mar 1-13
+
+Some amount of Mediawiki work - getting it to run, learning how to profile it, profiling the import and export process. Identified a hotspot in the export process (UtfNormal), need to try to get a fix in.
+
+Moved main system from Ubuntu 32 bit to Debian 64 bit. Yay. Tried to jhbuild gnome-shell and failed miserably. Boo. 
+
+Started helping other folks with their GSoC. Yay.

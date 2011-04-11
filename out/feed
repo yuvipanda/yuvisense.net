@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Mon, 11 Apr 2011 21:24:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DevLog: Feb 2011</title><link>http://yuvi.in/blog/devlog-feb-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording everyday productive activity in an attempt to publicly shaming myselfinto doing something productive everyday. This is the delayed february editin&lt;/em&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>YuviSense</title><link>http://yuvi.in/blog/</link><description>Codin Kid</description><lastBuildDate>Mon, 11 Apr 2011 21:45:16 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DevLog: Mar 2011</title><link>http://yuvi.in/blog/devlog-mar-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording productive activity every day in an attempt to publicly shame myself into doing productive things. This is the delayed march edition&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Mar 20 - 31&lt;/h3&gt;
+&lt;p&gt;More contract work for more money.&lt;/p&gt;
+&lt;p&gt;My dump patch to meidawiki got commited, then blasted during Code Review. This is what I get for trusting other people's code blindly, especially after 5 years. Lesson learnt. Fixed all issues, and now waiting for a review before commit.&lt;/p&gt;
+&lt;p&gt;More help for Madhu's GSoC, on and off. Same for Arun and Karthik. &lt;/p&gt;
+&lt;p&gt;Decide to give up on dumps (no concrete work found) and pick up wikipedia offline, after post to wikitech-l by the offline guy saying he is looking for people. &lt;/p&gt;
+&lt;p&gt;Channels #mediawiki and #wikimedia-tech are quite fun, actually. Not bad at all.&lt;/p&gt;
+&lt;p&gt;Started writing php code. Not that ugh, actually. &lt;/p&gt;
+&lt;p&gt;Spent 3 days at In50Hrs. Prototyped the CollegeReviews thing I was always dreaming about. Concepts were fleshed out really well. Need to spend more time on this thing.&lt;/p&gt;
+&lt;h3&gt;Mar 15 - 20&lt;/h3&gt;
+&lt;p&gt;Almost got fix to Mediawiki that made dumps 5% faster. Now just need to prove it on a larger scale before it gets accepted.&lt;/p&gt;
+&lt;p&gt;Did contracting work for some decent money. Feels pretty good.&lt;/p&gt;
+&lt;p&gt;Started helping madhu with her gsoc. She's darn smart. &lt;/p&gt;
+&lt;h3&gt;Mar 14&lt;/h3&gt;
+&lt;p&gt;Did bits of resume.&lt;/p&gt;
+&lt;h3&gt;Mar 1-13&lt;/h3&gt;
+&lt;p&gt;Some amount of Mediawiki work - getting it to run, learning how to profile it, profiling the import and export process. Identified a hotspot in the export process (UtfNormal), need to try to get a fix in.&lt;/p&gt;
+&lt;p&gt;Moved main system from Ubuntu 32 bit to Debian 64 bit. Yay. Tried to jhbuild gnome-shell and failed miserably. Boo. &lt;/p&gt;
+&lt;p&gt;Started helping other folks with their GSoC. Yay.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/devlog-mar-2011.html</guid><pubDate>Mon, 11 Apr 2011 21:45:12 GMT</pubDate></item><item><title>DevLog: Feb 2011</title><link>http://yuvi.in/blog/devlog-feb-2011.html</link><description>&lt;p&gt;&lt;em&gt;I've started keeping devlogs, recording everyday productive activity in an attempt to publicly shaming myselfinto doing something productive everyday. This is the delayed february editin&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Links: &lt;a href="http://32hourstartup.com/"&gt;32HourStartup&lt;/a&gt;, &lt;a href="http://pitivi.org"&gt;PiTiVi&lt;/a&gt;, &lt;a href="http://tedxssn.com"&gt;TEDxSSN&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Feb 26&lt;/h3&gt;
 &lt;p&gt;Initial work on Busroutes.in wiki import script.&lt;/p&gt;
@@ -132,9 +150,4 @@ Personal Domains. Ugh.&lt;/p&gt;
 &lt;p&gt;Also, and perhaps more importantly - on my rather small &lt;a href="http://yuvi.in/blog/samsung-n210-review.html"&gt;Netbook&lt;/a&gt;, pressing combos felt awkward to me (I know it shouldn't have, but it did). Much better (atleast so far) with vim than Emacs. Since most of my coding these days seems to be done on this small and underpowered machine, and my wrists were hurting anyway, I switched.&lt;/p&gt;
 &lt;p&gt;Muscle memory is still set to emacs (hit &lt;code&gt;C-k&lt;/code&gt; several times when it should've been &lt;code&gt;d$&lt;/code&gt;), but I guess I'll eventually get back to being fast enough in vim :)&lt;/p&gt;
 &lt;p&gt;Last time I was on vim, I was just getting used to Linux, and switched to emacs a few months after. I wonder if I'll switch again in the future.&lt;/p&gt;
-&lt;p&gt;TL;DR: Moved from Emacs to Vim 'coz I felt like it.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/moving-to-vim-from-emacs.html</guid><pubDate>Tue, 07 Dec 2010 01:14:21 GMT</pubDate></item><item><title>How to increase Cheese's Burst Mode Photo Count</title><link>http://yuvi.in/blog/how-to-increase-cheese-s-burst-mode-photo-count.html</link><description>&lt;p&gt;"Why does Cheese have a maximum photo count of 100 in burst mode?" questions have popped up quite a few times on the cheese list. It is just a teeny, tiny bug - fixed in master.&lt;/p&gt;
-&lt;p&gt;The work around is simple: &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Till Cheese 2.32&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;Raise it to whatever value you want in &lt;code&gt;line 8&lt;/code&gt; of &lt;code&gt;/usr/share/cheese/cheese-prefs.ui&lt;/code&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(If you don't know what version you are running, check &lt;code&gt;Help -&amp;gt; About&lt;/code&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;(Fix is just raising the limit from 100 to something that most people will likely not hit. If they do hit it - well, &lt;code&gt;line 40 on /usr/share/cheese/cheese-prefs.ui&lt;/code&gt; :D)&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/how-to-increase-cheese-s-burst-mode-photo-count.html</guid><pubDate>Sun, 07 Nov 2010 14:50:51 GMT</pubDate></item></channel></rss>
+&lt;p&gt;TL;DR: Moved from Emacs to Vim 'coz I felt like it.&lt;/p&gt;</description><guid isPermaLink="true">http://yuvi.in/blog/moving-to-vim-from-emacs.html</guid><pubDate>Tue, 07 Dec 2010 01:14:21 GMT</pubDate></item></channel></rss>
