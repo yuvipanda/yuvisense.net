@@ -1,0 +1,139 @@
+DevLog: April 2011
+permalink: devlog-april-2011.html
+published: 2011-05-02T01:50:17.571780
+tags: devlog
+
+*I've started keeping devlogs, recording productive activity every day in an attempt to publicly shame myself into doing productive things. This is the delayed april edition*
+
+### Apr 30
+
+Impromptu talk at ChennaiPy meet. Then fun discussions at Nerd Dinner. No code, sadly.
+
+### Apr 29
+
+Google Instant mostly works on yenWikipedia. Made a release. More exams.
+
+### Apr 22 - 28
+
+Nothing much done. Exams and stuff.
+
+Tecoholic forked yenWikipedia and created a Firefox extension. Adding features faster than me. Yay! :)
+
+### Apr 21
+
+Started exam mode. Two units in OOAD done. Fixed proto.in. 
+
+### Apr 20
+
+Long discussions with Kishore about data model for BRi. We're going with the simpler one. Also, spent a lot of time discussing ideas for his new project with @notnarainan. Was fun!
+
+Scraped entire Pune bus data into neatly structured JSON files and sent 'em to Planemad. Let's see how that turns out. 
+
+Started using SIO. Installed Variables Extension and started on Loop Extensions.
+
+### Apr 19
+
+Updated ShortURL to use base64 instead of 36. Helped Kishore start writing tests. Nothing productive much
+
+### Apr 18
+
+Removed /* private */ from LoadBalancer and Title. Patch got through. hexmode believes I'll not have any problems getting commit access. Nice :)
+
+Met gsathya, genghiz9, stattrav, superkiddo and idlecool at bessie beach today. Was fun.
+
+### Apr 17
+
+Not so productive day. Finally applied for commit access after more prodding. Removed one more /* private */ from Title.php. And that's about it. Incredibly unproductive day today. 
+
+### Apr 16
+
+Slept through most of the day. @since calculator turned into a statistics generator, and lead to discussions about removing /* private */ declarations. I poked around, found a change to $wgLanguageNames that tstarling had made that had broken a few extensions. Went in, fixed them (except one of them, which was so incredibly broken beyond repair). bawolf committed them (YAY!). Unlike the UtfNormal patch, which was second hand, this was my own code so felt good :)
+
+They (Happy-melon and bawolff) also suggested that I apply for commit access, since I seem to 'not break things too often' :) Let's see if I can keep that reputation.
+
+Have work lined up for tomororw - get rid of as many /* private */ bits as possible. 
+
+Woke up, checked/fixed visibility modifiers in 3 more files. My sleep schedule is *very* messed up.
+
+### Apr 15
+
+Meat of code for @since calculator ready. Not many people enthusiastic about it in ###mediawiki though. Sigh. Think I'll sleep early today.
+
+### Apr 14
+
+Chrome extension close to v0.2. Options page now pretty. Learnt some more awk. Slight IRC stats mentioned on ###mediawiki (Reedy came out on top!). Have my own bug to fix now. Might have to resort to awk and grep skills (hope it won't come down to that though).
+
+Kishore came home. Fun time. Spent lots of time discussing BRiWiki and how it fits into the new architecture. He tried to build out 21H with his 'Segments' idea, but (as I had predicted :P) it was rather very complicated. Let's see how this turns out. 
+
+### Apr 13
+
+Chrome Extension for adding links to other language wikis works! Took me a while to figure out the entire thing, but finally! Wheee! Have it 'released' on Chrome Extensions site. Srikanth paid the one time 5$ fee for me (Thanks:D). Wrote an email to wikimediaindia-l, should wait till tomorrow for response.
+
+Learnt quite a bit about Chrome extensions. Not bad at all. Also started learning awk. Useful tool.
+
+### Apr 12
+
+Working on Chrome Extension to add links to other language wikis when english wikipedia link turns up in google results. Reasonably working (with Instant turned off, that is). Need to figure out a few more things and I can get it to 'run' and release.
+
+Discussion about Extension:ShortUrl on wikitech-l. Apparently IDs aren't exactly unique 'identifiers' in MediaWiki. Need to find a way around. 
+
+Fixed a bug in the MediaWiki API documentation. Yay!
+
+### Apr 11
+
+After long winded attempts to fix Extension:ShortUrl's toolbox functionality ended with me banging my head repeatedly on dead ends, I *finally* fixed it. The issue was addHTML not doing what I thought it would (add HTML to current position), misunderstanding what die() does (kill output at current location, not output in general) and not asking clear enough questions on ###mediawiki. 
+Also hit a bug when it wasn't documented when (version) a particular method was added to a class. While I was able to workaround, might work on a script that adds 'since' information to all functions.
+
+Chat with PlaneMad about good things for briwiki. Kishore is doing wonderful work with the recursive RDF export. Should be fun, the days ahead!
+
+Also, fixed audio issues on desktop by moving to PulseAudio.
+
+### Apr 10
+
+Slept most of the day. Fixed mwclient issues and made 0.6.5 available from PyPI. Tried installing GNOME 3 again (via jhbuild, released moduleset). Failed miserably again.
+
+### Apr 9
+
+Played Cricket with Kishore. I won (HAHAHAHA). 
+
+Spent the night there. Packaged mwclient 0.6.5 to fix login bug. Kishore wrote code to import current stage data into briwiki. Yay.
+
+### Apr 7-8
+
+Frantic last minute grab to get GSoC proposal done. It still has typos and style issues I didn't have time to fix :(
+
+Everyone has their GSoC proposal in. Madhu's went in after a bit of late drama about her application status being set to 'withdrawn' in mentor's dashboard. Intervention by \_ke fixed things up, and everyone lived happily ever after :)
+
+### Apr 6
+
+Madhu's patch was accepted :)
+
+Wrote good amount of GSoC proposal. awjr says it's in good shape. Sumanah suggested I fix more bugs, so on the lookout. Had a skype convo with awjr about the current, twisted manual workflow that I'm going to help automate.
+
+### Apr 5
+
+Helped madhu write a patch. Pointed karthik in right direction for sound systems.
+
+Started writing proposal. First long chat with awjr. Helped Kishore a bit with his GSoC proposal. 
+
+### Apr 4
+
+Helped Madhu with GSoC a bit more. Started working on the wikipedia offline bits. Finally got in touch with awjr. 
+
+### Apr 3
+
+Speech at GNOME.asia. Best I've given so far. Hall of around 100 poeple was full, and people were actually sitting on the damn stairs! I was damn in the zone, and it was quite well receieved. Even the jokes went over well! After the GStreamer talk, I gave a pitch about GSoC. Then there were *lots* of questions. Fun!
+
+And then hung out with people from #h-i. Super fun :D Then spent a few hours at jace's place, trying to coax mwclient to work.
+
+Left bangalore and landed in chennai in a bus.
+
+### Apr 2
+
+Nothing at all. Developed parts of my presentation for GNOME.asia. Missed first day 'coz I overslept.
+
+### Apr 1
+
+Went to bangalore by unreserved general compartment for GNOME.asia. Fixed up CV on the way - stealing template from lut4rp. Also talked on IRC to apergos from the train - prompting her to tell me to 'set a Hitman on her'.
+
+Wrote Extension:ShortUrl, my first mediawiki extension. Works, and was well received in the Indian Wikimedia community.
